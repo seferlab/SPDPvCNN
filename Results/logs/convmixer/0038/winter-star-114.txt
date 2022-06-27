@@ -1,0 +1,1590 @@
+PS C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN> C:/ProgramData/Anaconda3/envs/tf/python.exe c:/Users/Tuna/Desktop/2022-spring/CS402/SPDPvCNN/training.py
+wandb: Currently logged in as: kuantuna (spdpvcnn). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.12.16
+wandb: Run data is saved locally in C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN\wandb\run-20220524_001526-3zts4niw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run winter-star-114
+wandb:  View project at https://wandb.ai/spdpvcnn/convmixer
+wandb:  View run at https://wandb.ai/spdpvcnn/convmixer/runs/3zts4niw
+Training data samples: 32465
+Validation data samples: 3607
+Test data samples: 9018
+2022-05-24 00:15:33.795439: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-05-24 00:15:34.170653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3495 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+2022-05-24 00:15:34.172950: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-05-24 00:17:22.907463: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Getting the ConvMixer model...
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-05-24 00:18:05.019669: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-05-24 00:18:05.274746: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 1/500
+2022-05-24 00:18:07.168791: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-05-24 00:18:08.364400: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+2022-05-24 00:18:11.449732: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-05-24 00:18:12.654377: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 232.25MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+  6/254 [..............................] - ETA: 29s - loss: 1.1263 - accuracy: 0.3320WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0434s vs `on_train_batch_end` time: 0.0630s). Check your callbacks.
+254/254 [==============================] - 38s 122ms/step - loss: 1.1083 - accuracy: 0.3443 - val_loss: 1.1543 - val_accuracy: 0.3399
+[[   0    0 3464]
+ [   0    0 2691]
+ [   0    0 2863]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.1695 - accuracy: 0.3175
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+2022-05-24 00:18:49.185911: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 2/500
+254/254 [==============================] - 31s 120ms/step - loss: 1.0907 - accuracy: 0.3697 - val_loss: 1.1231 - val_accuracy: 0.3144
+[[   0 2886  578]
+ [   0 2358  333]
+ [   0 2391  472]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.1344 - accuracy: 0.3138
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 3/500
+254/254 [==============================] - 31s 120ms/step - loss: 1.0869 - accuracy: 0.3751 - val_loss: 1.0891 - val_accuracy: 0.3759
+[[ 422 1819 1223]
+ [ 152 1569  970]
+ [ 360 1570  933]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.1510 - accuracy: 0.3242
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 4/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0841 - accuracy: 0.3801 - val_loss: 1.0754 - val_accuracy: 0.3915
+[[1358 1169  937]
+ [ 880 1140  671]
+ [1072 1005  786]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2213 - accuracy: 0.3642
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 5/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0831 - accuracy: 0.3827 - val_loss: 1.0745 - val_accuracy: 0.3959
+[[1517 1086  861]
+ [1016 1098  577]
+ [1205  938  720]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2295 - accuracy: 0.3698
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 6/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0810 - accuracy: 0.3874 - val_loss: 1.0736 - val_accuracy: 0.3962
+[[1579 1104  781]
+ [1054 1136  501]
+ [1252  955  656]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2278 - accuracy: 0.3738
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 7/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0804 - accuracy: 0.3892 - val_loss: 1.0731 - val_accuracy: 0.3981
+[[1523 1158  783]
+ [ 991 1207  493]
+ [1228  980  655]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2118 - accuracy: 0.3754
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 8/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0788 - accuracy: 0.3918 - val_loss: 1.0726 - val_accuracy: 0.3962
+[[1461 1191  812]
+ [ 937 1237  517]
+ [1205  986  672]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2059 - accuracy: 0.3737
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 9/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0770 - accuracy: 0.3941 - val_loss: 1.0720 - val_accuracy: 0.3948
+[[1439 1274  751]
+ [ 912 1336  443]
+ [1173 1064  626]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2103 - accuracy: 0.3771
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 10/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0753 - accuracy: 0.3960 - val_loss: 1.0712 - val_accuracy: 0.3989
+[[1381 1306  777]
+ [ 872 1347  472]
+ [1121 1094  648]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2061 - accuracy: 0.3744
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 11/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0753 - accuracy: 0.4010 - val_loss: 1.0711 - val_accuracy: 0.4009
+[[1318 1395  751]
+ [ 801 1449  441]
+ [1063 1178  622]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2079 - accuracy: 0.3758
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 12/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0735 - accuracy: 0.4036 - val_loss: 1.0710 - val_accuracy: 0.3989
+[[1240 1465  759]
+ [ 750 1495  446]
+ [ 993 1244  626]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2172 - accuracy: 0.3727
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 13/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0726 - accuracy: 0.4049 - val_loss: 1.0703 - val_accuracy: 0.4001
+[[1218 1535  711]
+ [ 730 1536  425]
+ [ 969 1302  592]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2255 - accuracy: 0.3710
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 14/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0717 - accuracy: 0.4077 - val_loss: 1.0697 - val_accuracy: 0.4003
+[[1278 1477  709]
+ [ 767 1496  428]
+ [1008 1262  593]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2262 - accuracy: 0.3734
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 15/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0704 - accuracy: 0.4098 - val_loss: 1.0695 - val_accuracy: 0.4006
+[[1146 1605  713]
+ [ 674 1590  427]
+ [ 915 1355  593]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2344 - accuracy: 0.3692
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 16/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0699 - accuracy: 0.4083 - val_loss: 1.0693 - val_accuracy: 0.4012
+[[1146 1646  672]
+ [ 691 1597  403]
+ [ 906 1381  576]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2430 - accuracy: 0.3680
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 17/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0692 - accuracy: 0.4143 - val_loss: 1.0691 - val_accuracy: 0.3998
+[[1165 1670  629]
+ [ 698 1619  374]
+ [ 926 1400  537]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2556 - accuracy: 0.3683
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 18/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0678 - accuracy: 0.4151 - val_loss: 1.0688 - val_accuracy: 0.4020
+[[1089 1697  678]
+ [ 661 1630  400]
+ [ 884 1410  569]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2596 - accuracy: 0.3646
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 19/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0667 - accuracy: 0.4178 - val_loss: 1.0680 - val_accuracy: 0.4006
+[[1123 1680  661]
+ [ 673 1622  396]
+ [ 909 1393  561]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2559 - accuracy: 0.3666
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 20/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0659 - accuracy: 0.4205 - val_loss: 1.0680 - val_accuracy: 0.4003
+[[1079 1725  660]
+ [ 642 1656  393]
+ [ 875 1431  557]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2739 - accuracy: 0.3650
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 21/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0653 - accuracy: 0.4205 - val_loss: 1.0679 - val_accuracy: 0.4034
+[[1114 1715  635]
+ [ 675 1646  370]
+ [ 896 1430  537]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2761 - accuracy: 0.3656
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 22/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0641 - accuracy: 0.4222 - val_loss: 1.0676 - val_accuracy: 0.4050
+[[1101 1718  645]
+ [ 653 1656  382]
+ [ 896 1440  527]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2805 - accuracy: 0.3642
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 23/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0631 - accuracy: 0.4276 - val_loss: 1.0673 - val_accuracy: 0.4028
+[[1115 1686  663]
+ [ 647 1642  402]
+ [ 904 1416  543]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2773 - accuracy: 0.3659
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 24/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0622 - accuracy: 0.4279 - val_loss: 1.0669 - val_accuracy: 0.4056
+[[1053 1731  680]
+ [ 619 1669  403]
+ [ 868 1444  551]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2798 - accuracy: 0.3629
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 25/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0612 - accuracy: 0.4272 - val_loss: 1.0665 - val_accuracy: 0.4081
+[[1082 1720  662]
+ [ 631 1665  395]
+ [ 889 1438  536]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2788 - accuracy: 0.3640
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 26/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0602 - accuracy: 0.4318 - val_loss: 1.0663 - val_accuracy: 0.4084
+[[1059 1718  687]
+ [ 625 1664  402]
+ [ 874 1439  550]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2769 - accuracy: 0.3629
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 27/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0598 - accuracy: 0.4310 - val_loss: 1.0666 - val_accuracy: 0.4067
+[[1079 1737  648]
+ [ 631 1680  380]
+ [ 900 1448  515]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2903 - accuracy: 0.3631
+
+
+
+Epoch 28/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0597 - accuracy: 0.4336 - val_loss: 1.0664 - val_accuracy: 0.4073
+[[1092 1729  643]
+ [ 641 1662  388]
+ [ 917 1431  515]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2935 - accuracy: 0.3625
+
+
+
+Epoch 29/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0580 - accuracy: 0.4351 - val_loss: 1.0662 - val_accuracy: 0.4078
+[[1153 1714  597]
+ [ 684 1662  345]
+ [ 968 1417  478]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2967 - accuracy: 0.3652
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 30/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0575 - accuracy: 0.4367 - val_loss: 1.0658 - val_accuracy: 0.4078
+[[1070 1765  629]
+ [ 608 1730  353]
+ [ 907 1461  495]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2941 - accuracy: 0.3654
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 31/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0570 - accuracy: 0.4389 - val_loss: 1.0658 - val_accuracy: 0.4062
+[[1117 1757  590]
+ [ 648 1725  318]
+ [ 946 1455  462]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3057 - accuracy: 0.3664
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 32/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0559 - accuracy: 0.4391 - val_loss: 1.0658 - val_accuracy: 0.4095
+[[1119 1750  595]
+ [ 643 1716  332]
+ [ 937 1452  474]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3003 - accuracy: 0.3669
+
+
+
+Epoch 33/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0552 - accuracy: 0.4397 - val_loss: 1.0657 - val_accuracy: 0.4078
+[[1042 1789  633]
+ [ 602 1741  348]
+ [ 885 1478  500]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3132 - accuracy: 0.3640
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 34/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0537 - accuracy: 0.4389 - val_loss: 1.0649 - val_accuracy: 0.4081
+[[1127 1700  637]
+ [ 659 1663  369]
+ [ 945 1410  508]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2887 - accuracy: 0.3657
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 35/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0538 - accuracy: 0.4449 - val_loss: 1.0656 - val_accuracy: 0.4089
+[[1122 1726  616]
+ [ 631 1704  356]
+ [ 935 1433  495]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3035 - accuracy: 0.3683
+
+
+
+Epoch 36/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0527 - accuracy: 0.4466 - val_loss: 1.0655 - val_accuracy: 0.4073
+[[1141 1723  600]
+ [ 639 1712  340]
+ [ 947 1433  483]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3052 - accuracy: 0.3699
+
+
+
+Epoch 37/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0525 - accuracy: 0.4454 - val_loss: 1.0653 - val_accuracy: 0.4056
+[[1135 1744  585]
+ [ 645 1728  318]
+ [ 949 1446  468]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2969 - accuracy: 0.3694
+
+
+
+Epoch 38/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0503 - accuracy: 0.4522 - val_loss: 1.0652 - val_accuracy: 0.4053
+[[1106 1777  581]
+ [ 620 1761  310]
+ [ 917 1480  466]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2969 - accuracy: 0.3696
+
+
+
+Epoch 39/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0502 - accuracy: 0.4494 - val_loss: 1.0652 - val_accuracy: 0.4078
+[[1176 1687  601]
+ [ 659 1687  345]
+ [ 967 1407  489]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2960 - accuracy: 0.3717
+
+
+
+Epoch 40/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0498 - accuracy: 0.4516 - val_loss: 1.0652 - val_accuracy: 0.4059
+[[1163 1722  579]
+ [ 662 1707  322]
+ [ 966 1428  469]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2916 - accuracy: 0.3703
+
+
+
+Epoch 41/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0486 - accuracy: 0.4519 - val_loss: 1.0651 - val_accuracy: 0.4067
+[[1181 1674  609]
+ [ 667 1678  346]
+ [ 970 1401  492]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2913 - accuracy: 0.3716
+
+
+
+Epoch 42/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0484 - accuracy: 0.4532 - val_loss: 1.0654 - val_accuracy: 0.4075
+[[1207 1659  598]
+ [ 678 1671  342]
+ [ 997 1382  484]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2923 - accuracy: 0.3728
+
+
+
+Epoch 43/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0476 - accuracy: 0.4535 - val_loss: 1.0656 - val_accuracy: 0.4073
+[[1167 1680  617]
+ [ 656 1689  346]
+ [ 960 1396  507]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2974 - accuracy: 0.3729
+
+
+
+Epoch 44/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0466 - accuracy: 0.4564 - val_loss: 1.0655 - val_accuracy: 0.4078
+[[1217 1617  630]
+ [ 685 1629  377]
+ [ 998 1348  517]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2885 - accuracy: 0.3729
+
+
+
+Epoch 45/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0461 - accuracy: 0.4571 - val_loss: 1.0653 - val_accuracy: 0.4070
+[[1189 1636  639]
+ [ 667 1635  389]
+ [ 974 1361  528]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2827 - accuracy: 0.3717
+
+
+
+Epoch 46/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0447 - accuracy: 0.4622 - val_loss: 1.0657 - val_accuracy: 0.4070
+[[1198 1701  565]
+ [ 668 1715  308]
+ [ 988 1423  452]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2958 - accuracy: 0.3731
+
+
+
+Epoch 47/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0446 - accuracy: 0.4585 - val_loss: 1.0661 - val_accuracy: 0.4075
+[[1233 1605  626]
+ [ 702 1612  377]
+ [1020 1335  508]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2904 - accuracy: 0.3718
+
+
+
+Epoch 48/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0439 - accuracy: 0.4602 - val_loss: 1.0657 - val_accuracy: 0.4059
+[[1178 1657  629]
+ [ 658 1670  363]
+ [ 976 1382  505]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2861 - accuracy: 0.3718
+
+
+
+Epoch 49/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0434 - accuracy: 0.4633 - val_loss: 1.0656 - val_accuracy: 0.4064
+[[1188 1673  603]
+ [ 659 1698  334]
+ [ 985 1393  485]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2871 - accuracy: 0.3738
+
+
+
+Epoch 50/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0421 - accuracy: 0.4645 - val_loss: 1.0652 - val_accuracy: 0.4081
+[[1209 1601  654]
+ [ 673 1605  413]
+ [ 998 1335  530]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2627 - accuracy: 0.3708
+
+
+
+Epoch 51/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0421 - accuracy: 0.4638 - val_loss: 1.0652 - val_accuracy: 0.4075
+[[1263 1567  634]
+ [ 704 1596  391]
+ [1031 1306  526]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2551 - accuracy: 0.3754
+
+
+
+Epoch 52/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0413 - accuracy: 0.4618 - val_loss: 1.0658 - val_accuracy: 0.4073
+[[1285 1606  573]
+ [ 717 1649  325]
+ [1052 1344  467]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2773 - accuracy: 0.3771
+
+
+
+Epoch 53/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0401 - accuracy: 0.4656 - val_loss: 1.0661 - val_accuracy: 0.4106
+[[1301 1621  542]
+ [ 718 1667  306]
+ [1066 1359  438]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2833 - accuracy: 0.3777
+
+
+
+Epoch 54/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0389 - accuracy: 0.4679 - val_loss: 1.0661 - val_accuracy: 0.4100
+[[1255 1655  554]
+ [ 688 1693  310]
+ [1022 1393  448]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2850 - accuracy: 0.3766
+
+
+
+Epoch 55/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0387 - accuracy: 0.4665 - val_loss: 1.0650 - val_accuracy: 0.4109
+[[1279 1560  625]
+ [ 704 1604  383]
+ [1060 1300  503]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2448 - accuracy: 0.3755
+
+
+
+Epoch 56/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0375 - accuracy: 0.4703 - val_loss: 1.0659 - val_accuracy: 0.4086
+[[1245 1598  621]
+ [ 680 1644  367]
+ [1038 1323  502]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2651 - accuracy: 0.3760
+
+
+
+Epoch 57/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0371 - accuracy: 0.4688 - val_loss: 1.0661 - val_accuracy: 0.4075
+[[1282 1557  625]
+ [ 706 1603  382]
+ [1052 1297  514]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2598 - accuracy: 0.3769
+
+
+
+Epoch 58/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0368 - accuracy: 0.4690 - val_loss: 1.0663 - val_accuracy: 0.4106
+[[1306 1563  595]
+ [ 708 1626  357]
+ [1088 1292  483]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2625 - accuracy: 0.3787
+
+
+
+Epoch 59/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0348 - accuracy: 0.4747 - val_loss: 1.0654 - val_accuracy: 0.4114
+[[1306 1535  623]
+ [ 711 1589  391]
+ [1084 1273  506]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2397 - accuracy: 0.3771
+
+
+
+Epoch 60/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0352 - accuracy: 0.4730 - val_loss: 1.0655 - val_accuracy: 0.4092
+[[1289 1537  638]
+ [ 692 1593  406]
+ [1066 1277  520]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2311 - accuracy: 0.3772
+
+
+
+Epoch 61/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0340 - accuracy: 0.4771 - val_loss: 1.0661 - val_accuracy: 0.4103
+[[1332 1530  602]
+ [ 731 1588  372]
+ [1102 1262  499]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2465 - accuracy: 0.3791
+
+
+
+Epoch 62/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0332 - accuracy: 0.4755 - val_loss: 1.0667 - val_accuracy: 0.4086
+[[1353 1511  600]
+ [ 759 1560  372]
+ [1108 1255  500]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2545 - accuracy: 0.3785
+
+
+
+Epoch 63/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0327 - accuracy: 0.4778 - val_loss: 1.0662 - val_accuracy: 0.4081
+[[1288 1583  593]
+ [ 689 1646  356]
+ [1061 1312  490]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2535 - accuracy: 0.3797
+
+
+
+Epoch 64/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0322 - accuracy: 0.4796 - val_loss: 1.0661 - val_accuracy: 0.4078
+[[1360 1529  575]
+ [ 725 1622  344]
+ [1103 1279  481]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2502 - accuracy: 0.3840
+
+
+
+Epoch 65/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0313 - accuracy: 0.4780 - val_loss: 1.0670 - val_accuracy: 0.4067
+[[1317 1535  612]
+ [ 703 1613  375]
+ [1083 1278  502]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2618 - accuracy: 0.3806
+
+
+
+Epoch 66/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0297 - accuracy: 0.4824 - val_loss: 1.0668 - val_accuracy: 0.4078
+[[1351 1476  637]
+ [ 714 1552  425]
+ [1105 1231  527]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2532 - accuracy: 0.3804
+
+
+
+Epoch 67/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0292 - accuracy: 0.4807 - val_loss: 1.0666 - val_accuracy: 0.4081
+[[1326 1475  663]
+ [ 700 1555  436]
+ [1097 1227  539]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2439 - accuracy: 0.3792
+
+
+
+Epoch 68/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0280 - accuracy: 0.4817 - val_loss: 1.0675 - val_accuracy: 0.4067
+[[1317 1545  602]
+ [ 705 1618  368]
+ [1085 1284  494]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2631 - accuracy: 0.3802
+
+
+
+Epoch 69/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0288 - accuracy: 0.4817 - val_loss: 1.0672 - val_accuracy: 0.4073
+[[1393 1457  614]
+ [ 768 1538  385]
+ [1143 1216  504]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2516 - accuracy: 0.3809
+
+
+
+Epoch 70/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0277 - accuracy: 0.4845 - val_loss: 1.0676 - val_accuracy: 0.4106
+[[1338 1469  657]
+ [ 711 1565  415]
+ [1106 1226  531]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2421 - accuracy: 0.3808
+
+
+
+Epoch 71/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0267 - accuracy: 0.4854 - val_loss: 1.0677 - val_accuracy: 0.4086
+[[1396 1385  683]
+ [ 769 1461  461]
+ [1156 1148  559]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2347 - accuracy: 0.3788
+
+
+
+Epoch 72/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0259 - accuracy: 0.4885 - val_loss: 1.0678 - val_accuracy: 0.4070
+[[1382 1443  639]
+ [ 755 1524  412]
+ [1140 1202  521]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2424 - accuracy: 0.3800
+
+
+
+Epoch 73/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0251 - accuracy: 0.4858 - val_loss: 1.0679 - val_accuracy: 0.4078
+[[1371 1413  680]
+ [ 745 1504  442]
+ [1138 1177  548]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2351 - accuracy: 0.3796
+
+
+
+Epoch 74/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0248 - accuracy: 0.4887 - val_loss: 1.0679 - val_accuracy: 0.4064
+[[1428 1366  670]
+ [ 780 1465  446]
+ [1187 1135  541]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2420 - accuracy: 0.3808
+
+
+
+Epoch 75/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0231 - accuracy: 0.4895 - val_loss: 1.0683 - val_accuracy: 0.4056
+[[1466 1335  663]
+ [ 808 1441  442]
+ [1207 1114  542]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2485 - accuracy: 0.3825
+
+
+
+Epoch 76/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0233 - accuracy: 0.4898 - val_loss: 1.0685 - val_accuracy: 0.4067
+[[1387 1381  696]
+ [ 750 1472  469]
+ [1156 1143  564]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2432 - accuracy: 0.3796
+
+
+
+Epoch 77/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0219 - accuracy: 0.4910 - val_loss: 1.0684 - val_accuracy: 0.4070
+[[1399 1406  659]
+ [ 758 1494  439]
+ [1158 1161  544]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2489 - accuracy: 0.3811
+
+
+
+Epoch 78/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0208 - accuracy: 0.4912 - val_loss: 1.0684 - val_accuracy: 0.4078
+[[1370 1387  707]
+ [ 731 1472  488]
+ [1137 1149  577]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2387 - accuracy: 0.3791
+
+
+
+Epoch 79/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0199 - accuracy: 0.4951 - val_loss: 1.0686 - val_accuracy: 0.4081
+[[1411 1374  679]
+ [ 769 1465  457]
+ [1171 1141  551]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2416 - accuracy: 0.3800
+
+
+
+Epoch 80/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0195 - accuracy: 0.4922 - val_loss: 1.0686 - val_accuracy: 0.4075
+[[1486 1286  692]
+ [ 824 1398  469]
+ [1220 1075  568]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2359 - accuracy: 0.3828
+
+
+
+Epoch 81/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0185 - accuracy: 0.4937 - val_loss: 1.0687 - val_accuracy: 0.4084
+[[1434 1367  663]
+ [ 784 1464  443]
+ [1183 1129  551]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2379 - accuracy: 0.3825
+
+
+
+Epoch 82/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0185 - accuracy: 0.4949 - val_loss: 1.0693 - val_accuracy: 0.4078
+[[1399 1392  673]
+ [ 767 1479  445]
+ [1158 1157  548]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2429 - accuracy: 0.3799
+
+
+
+Epoch 83/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0169 - accuracy: 0.4981 - val_loss: 1.0699 - val_accuracy: 0.4086
+[[1415 1379  670]
+ [ 783 1461  447]
+ [1175 1135  553]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2441 - accuracy: 0.3802
+
+
+
+Epoch 84/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0160 - accuracy: 0.4984 - val_loss: 1.0704 - val_accuracy: 0.4067
+[[1428 1349  687]
+ [ 785 1447  459]
+ [1175 1126  562]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2508 - accuracy: 0.3811
+
+
+
+Epoch 85/500
+254/254 [==============================] - 31s 123ms/step - loss: 1.0151 - accuracy: 0.5006 - val_loss: 1.0699 - val_accuracy: 0.4089
+[[1458 1372  634]
+ [ 805 1456  430]
+ [1198 1134  531]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2544 - accuracy: 0.3820
+
+
+
+Epoch 86/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0146 - accuracy: 0.5029 - val_loss: 1.0702 - val_accuracy: 0.4084
+[[1417 1363  684]
+ [ 773 1452  466]
+ [1167 1133  563]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2573 - accuracy: 0.3806
+
+
+
+Epoch 87/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0137 - accuracy: 0.5007 - val_loss: 1.0702 - val_accuracy: 0.4089
+[[1389 1348  727]
+ [ 764 1432  495]
+ [1150 1118  595]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2430 - accuracy: 0.3788
+
+
+
+Epoch 88/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0129 - accuracy: 0.5028 - val_loss: 1.0709 - val_accuracy: 0.4081
+[[1397 1337  730]
+ [ 768 1423  500]
+ [1160 1109  594]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2485 - accuracy: 0.3786
+
+
+
+Epoch 89/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0119 - accuracy: 0.5013 - val_loss: 1.0709 - val_accuracy: 0.4059
+[[1469 1307  688]
+ [ 815 1398  478]
+ [1219 1073  571]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2619 - accuracy: 0.3812
+
+
+
+Epoch 90/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0106 - accuracy: 0.5034 - val_loss: 1.0710 - val_accuracy: 0.4095
+[[1395 1323  746]
+ [ 762 1408  521]
+ [1167 1081  615]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2569 - accuracy: 0.3790
+
+
+
+Epoch 91/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0103 - accuracy: 0.5057 - val_loss: 1.0711 - val_accuracy: 0.4070
+[[1442 1355  667]
+ [ 789 1443  459]
+ [1200 1110  553]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2687 - accuracy: 0.3812
+
+
+
+Epoch 92/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0088 - accuracy: 0.5048 - val_loss: 1.0715 - val_accuracy: 0.4048
+[[1462 1329  673]
+ [ 812 1411  468]
+ [1216 1090  557]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2733 - accuracy: 0.3804
+
+
+
+Epoch 93/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0082 - accuracy: 0.5059 - val_loss: 1.0721 - val_accuracy: 0.4014
+[[1522 1273  669]
+ [ 835 1381  475]
+ [1242 1055  566]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2794 - accuracy: 0.3847
+
+
+
+Epoch 94/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0080 - accuracy: 0.5061 - val_loss: 1.0723 - val_accuracy: 0.4037
+[[1448 1316  700]
+ [ 802 1399  490]
+ [1200 1080  583]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2782 - accuracy: 0.3804
+
+
+
+Epoch 95/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0067 - accuracy: 0.5085 - val_loss: 1.0726 - val_accuracy: 0.4020
+[[1483 1248  733]
+ [ 815 1348  528]
+ [1222 1028  613]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2829 - accuracy: 0.3819
+
+
+
+Epoch 96/500
+254/254 [==============================] - 31s 121ms/step - loss: 1.0055 - accuracy: 0.5113 - val_loss: 1.0734 - val_accuracy: 0.4042
+[[1467 1313  684]
+ [ 817 1392  482]
+ [1218 1079  566]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2910 - accuracy: 0.3798
+
+
+
+Epoch 97/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0055 - accuracy: 0.5121 - val_loss: 1.0733 - val_accuracy: 0.4062
+[[1414 1343  707]
+ [ 770 1414  507]
+ [1175 1100  588]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2842 - accuracy: 0.3788
+
+
+
+Epoch 98/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0055 - accuracy: 0.5096 - val_loss: 1.0728 - val_accuracy: 0.4048
+[[1458 1293  713]
+ [ 812 1371  508]
+ [1205 1061  597]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2703 - accuracy: 0.3799
+
+
+
+Epoch 99/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0028 - accuracy: 0.5136 - val_loss: 1.0731 - val_accuracy: 0.4056
+[[1457 1296  711]
+ [ 800 1377  514]
+ [1195 1069  599]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2798 - accuracy: 0.3807
+
+
+
+Epoch 100/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0017 - accuracy: 0.5154 - val_loss: 1.0735 - val_accuracy: 0.4062
+[[1411 1357  696]
+ [ 770 1422  499]
+ [1167 1112  584]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2803 - accuracy: 0.3789
+
+
+
+Epoch 101/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0013 - accuracy: 0.5131 - val_loss: 1.0739 - val_accuracy: 0.4064
+[[1464 1309  691]
+ [ 816 1384  491]
+ [1201 1078  584]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2868 - accuracy: 0.3806
+
+
+
+Epoch 102/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0005 - accuracy: 0.5165 - val_loss: 1.0743 - val_accuracy: 0.4050
+[[1427 1319  718]
+ [ 791 1386  514]
+ [1190 1076  597]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2875 - accuracy: 0.3781
+
+
+
+Epoch 103/500
+254/254 [==============================] - 31s 122ms/step - loss: 1.0001 - accuracy: 0.5138 - val_loss: 1.0747 - val_accuracy: 0.4039
+[[1522 1233  709]
+ [ 839 1332  520]
+ [1251 1018  594]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.3026 - accuracy: 0.3823
+
+
+
+Epoch 104/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9986 - accuracy: 0.5180 - val_loss: 1.0745 - val_accuracy: 0.4037
+[[1449 1257  758]
+ [ 797 1343  551]
+ [1195 1036  632]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2828 - accuracy: 0.3797
+
+
+
+Epoch 105/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9982 - accuracy: 0.5165 - val_loss: 1.0755 - val_accuracy: 0.4039
+[[1449 1286  729]
+ [ 811 1355  525]
+ [1203 1052  608]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2906 - accuracy: 0.3784
+
+
+
+Epoch 106/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9965 - accuracy: 0.5167 - val_loss: 1.0757 - val_accuracy: 0.4056
+[[1540 1122  802]
+ [ 871 1222  598]
+ [1254  925  684]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2908 - accuracy: 0.3821
+
+
+
+Epoch 107/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9951 - accuracy: 0.5214 - val_loss: 1.0751 - val_accuracy: 0.4062
+[[1546 1158  760]
+ [ 852 1287  552]
+ [1266  963  634]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2994 - accuracy: 0.3845
+
+
+
+Epoch 108/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9952 - accuracy: 0.5191 - val_loss: 1.0765 - val_accuracy: 0.4045
+[[1528 1155  781]
+ [ 849 1275  567]
+ [1258  956  649]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3018 - accuracy: 0.3828
+
+
+
+Epoch 109/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9934 - accuracy: 0.5223 - val_loss: 1.0768 - val_accuracy: 0.4037
+[[1571 1115  778]
+ [ 866 1270  555]
+ [1278  937  648]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3041 - accuracy: 0.3869
+
+
+
+Epoch 110/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9932 - accuracy: 0.5232 - val_loss: 1.0772 - val_accuracy: 0.4042
+[[1500 1219  745]
+ [ 835 1321  535]
+ [1233 1005  625]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2994 - accuracy: 0.3821
+
+
+
+Epoch 111/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9914 - accuracy: 0.5217 - val_loss: 1.0779 - val_accuracy: 0.4014
+[[1554 1140  770]
+ [ 855 1283  553]
+ [1264  948  651]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3116 - accuracy: 0.3868
+
+
+
+Epoch 112/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9911 - accuracy: 0.5253 - val_loss: 1.0776 - val_accuracy: 0.4042
+[[1498 1114  852]
+ [ 822 1234  635]
+ [1240  912  711]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.2976 - accuracy: 0.3818
+
+
+
+Epoch 113/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9900 - accuracy: 0.5242 - val_loss: 1.0781 - val_accuracy: 0.4042
+[[1571 1087  806]
+ [ 886 1227  578]
+ [1275  905  683]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3103 - accuracy: 0.3860
+
+
+
+Epoch 114/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9883 - accuracy: 0.5268 - val_loss: 1.0785 - val_accuracy: 0.4009
+[[1581 1055  828]
+ [ 876 1213  602]
+ [1288  883  692]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.3129 - accuracy: 0.3866
+
+
+
+Epoch 115/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9882 - accuracy: 0.5236 - val_loss: 1.0782 - val_accuracy: 0.4050
+[[1520 1076  868]
+ [ 828 1212  651]
+ [1247  884  732]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.2971 - accuracy: 0.3841
+
+
+
+Epoch 116/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9880 - accuracy: 0.5268 - val_loss: 1.0793 - val_accuracy: 0.4056
+[[1549 1122  793]
+ [ 864 1267  560]
+ [1267  924  672]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3121 - accuracy: 0.3868
+
+
+
+Epoch 117/500
+254/254 [==============================] - 31s 123ms/step - loss: 0.9866 - accuracy: 0.5283 - val_loss: 1.0787 - val_accuracy: 0.4023
+[[1623 1036  805]
+ [ 918 1202  571]
+ [1317  873  673]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.3162 - accuracy: 0.3879
+
+
+
+Epoch 118/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9851 - accuracy: 0.5275 - val_loss: 1.0797 - val_accuracy: 0.4009
+[[1576 1076  812]
+ [ 887 1221  583]
+ [1284  893  686]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3134 - accuracy: 0.3862
+
+
+
+Epoch 119/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9832 - accuracy: 0.5309 - val_loss: 1.0794 - val_accuracy: 0.4014
+[[1567 1026  871]
+ [ 874 1180  637]
+ [1286  859  718]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3117 - accuracy: 0.3842
+
+
+
+Epoch 120/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9823 - accuracy: 0.5302 - val_loss: 1.0793 - val_accuracy: 0.4009
+[[1563 1026  875]
+ [ 875 1169  647]
+ [1281  853  729]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3138 - accuracy: 0.3838
+
+
+
+Epoch 121/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9813 - accuracy: 0.5312 - val_loss: 1.0804 - val_accuracy: 0.4012
+[[1611  989  864]
+ [ 936 1127  628]
+ [1325  815  723]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3240 - accuracy: 0.3838
+
+
+
+Epoch 122/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9799 - accuracy: 0.5350 - val_loss: 1.0806 - val_accuracy: 0.3998
+[[1610  999  855]
+ [ 931 1137  623]
+ [1319  829  715]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.3245 - accuracy: 0.3839
+
+
+
+Epoch 123/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9806 - accuracy: 0.5332 - val_loss: 1.0814 - val_accuracy: 0.4012
+[[1599  977  888]
+ [ 912 1112  667]
+ [1302  809  752]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3290 - accuracy: 0.3840
+
+
+
+Epoch 124/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9781 - accuracy: 0.5338 - val_loss: 1.0817 - val_accuracy: 0.4001
+[[1558 1086  820]
+ [ 872 1220  599]
+ [1282  901  680]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3421 - accuracy: 0.3835
+
+
+
+Epoch 125/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9770 - accuracy: 0.5380 - val_loss: 1.0824 - val_accuracy: 0.4017
+[[1502 1093  869]
+ [ 830 1217  644]
+ [1245  894  724]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3255 - accuracy: 0.3818
+
+
+
+Epoch 126/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9759 - accuracy: 0.5407 - val_loss: 1.0821 - val_accuracy: 0.3978
+[[1546 1025  893]
+ [ 863 1160  668]
+ [1268  845  750]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3234 - accuracy: 0.3832
+
+
+
+Epoch 127/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9759 - accuracy: 0.5373 - val_loss: 1.0831 - val_accuracy: 0.3987
+[[1523 1009  932]
+ [ 855 1130  706]
+ [1254  823  786]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3240 - accuracy: 0.3813
+
+
+
+Epoch 128/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9745 - accuracy: 0.5373 - val_loss: 1.0833 - val_accuracy: 0.3970
+[[1547 1040  877]
+ [ 869 1168  654]
+ [1261  861  741]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3350 - accuracy: 0.3832
+
+
+
+Epoch 129/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9734 - accuracy: 0.5395 - val_loss: 1.0837 - val_accuracy: 0.3953
+[[1587 1092  785]
+ [ 896 1222  573]
+ [1288  900  675]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3578 - accuracy: 0.3863
+
+
+
+Epoch 130/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9736 - accuracy: 0.5381 - val_loss: 1.0844 - val_accuracy: 0.3984
+[[1559 1010  895]
+ [ 881 1136  674]
+ [1281  828  754]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3430 - accuracy: 0.3825
+
+
+
+Epoch 131/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9708 - accuracy: 0.5402 - val_loss: 1.0853 - val_accuracy: 0.3976
+[[1573 1041  850]
+ [ 890 1168  633]
+ [1279  861  723]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3584 - accuracy: 0.3841
+
+
+
+Epoch 132/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9702 - accuracy: 0.5432 - val_loss: 1.0845 - val_accuracy: 0.4009
+[[1576 1023  865]
+ [ 907 1141  643]
+ [1286  841  736]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3476 - accuracy: 0.3829
+
+
+
+Epoch 133/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9682 - accuracy: 0.5423 - val_loss: 1.0849 - val_accuracy: 0.4014
+[[1535 1031  898]
+ [ 868 1145  678]
+ [1257  844  762]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3440 - accuracy: 0.3817
+
+
+
+Epoch 134/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9678 - accuracy: 0.5430 - val_loss: 1.0847 - val_accuracy: 0.4045
+[[1528 1069  867]
+ [ 861 1182  648]
+ [1249  882  732]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3396 - accuracy: 0.3817
+
+
+
+Epoch 135/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9666 - accuracy: 0.5437 - val_loss: 1.0857 - val_accuracy: 0.4006
+[[1545 1043  876]
+ [ 871 1160  660]
+ [1257  847  759]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3683 - accuracy: 0.3841
+
+
+
+Epoch 136/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9655 - accuracy: 0.5453 - val_loss: 1.0862 - val_accuracy: 0.4001
+[[1618  944  902]
+ [ 935 1073  683]
+ [1313  771  779]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3668 - accuracy: 0.3848
+
+
+
+Epoch 137/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9642 - accuracy: 0.5450 - val_loss: 1.0869 - val_accuracy: 0.4012
+[[1610  972  882]
+ [ 937 1095  659]
+ [1309  791  763]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3777 - accuracy: 0.3846
+
+
+
+Epoch 138/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9637 - accuracy: 0.5478 - val_loss: 1.0874 - val_accuracy: 0.4026
+[[1586  987  891]
+ [ 913 1097  681]
+ [1294  794  775]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3724 - accuracy: 0.3835
+
+
+
+Epoch 139/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9623 - accuracy: 0.5480 - val_loss: 1.0876 - val_accuracy: 0.4020
+[[1616  923  925]
+ [ 929 1030  732]
+ [1315  738  810]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3726 - accuracy: 0.3832
+
+
+
+Epoch 140/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9601 - accuracy: 0.5485 - val_loss: 1.0894 - val_accuracy: 0.3995
+[[1593 1038  833]
+ [ 918 1144  629]
+ [1296  844  723]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3870 - accuracy: 0.3837
+
+
+
+Epoch 141/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9594 - accuracy: 0.5500 - val_loss: 1.0896 - val_accuracy: 0.4009
+[[1566  978  920]
+ [ 888 1067  736]
+ [1274  774  815]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3714 - accuracy: 0.3823
+
+
+
+Epoch 142/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9593 - accuracy: 0.5520 - val_loss: 1.0897 - val_accuracy: 0.4050
+[[1624  948  892]
+ [ 936 1050  705]
+ [1309  767  787]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3813 - accuracy: 0.3838
+
+
+
+Epoch 143/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9567 - accuracy: 0.5562 - val_loss: 1.0909 - val_accuracy: 0.4039
+[[1580  965  919]
+ [ 899 1048  744]
+ [1281  767  815]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3868 - accuracy: 0.3818
+
+
+
+Epoch 144/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9563 - accuracy: 0.5521 - val_loss: 1.0905 - val_accuracy: 0.4028
+[[1584  977  903]
+ [ 912 1066  713]
+ [1290  776  797]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3909 - accuracy: 0.3822
+
+
+
+Epoch 145/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9554 - accuracy: 0.5532 - val_loss: 1.0913 - val_accuracy: 0.4039
+[[1596  981  887]
+ [ 928 1054  709]
+ [1300  778  785]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.3933 - accuracy: 0.3809
+
+
+
+Epoch 146/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9525 - accuracy: 0.5541 - val_loss: 1.0918 - val_accuracy: 0.4042
+[[1642  910  912]
+ [ 953  998  740]
+ [1333  720  810]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4063 - accuracy: 0.3826
+
+
+
+Epoch 147/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9524 - accuracy: 0.5553 - val_loss: 1.0932 - val_accuracy: 0.4048
+[[1613  974  877]
+ [ 938 1046  707]
+ [1308  769  786]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.4036 - accuracy: 0.3820
+
+
+
+Epoch 148/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9510 - accuracy: 0.5581 - val_loss: 1.0923 - val_accuracy: 0.4042
+[[1654  874  936]
+ [ 965  963  763]
+ [1335  697  831]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4008 - accuracy: 0.3823
+
+
+
+Epoch 149/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9506 - accuracy: 0.5581 - val_loss: 1.0938 - val_accuracy: 0.4039
+[[1531 1080  853]
+ [ 871 1161  659]
+ [1241  868  754]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4029 - accuracy: 0.3821
+
+
+
+Epoch 150/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9483 - accuracy: 0.5589 - val_loss: 1.0935 - val_accuracy: 0.4034
+[[1586 1033  845]
+ [ 926 1121  644]
+ [1290  831  742]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4096 - accuracy: 0.3825
+
+
+
+Epoch 151/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9472 - accuracy: 0.5596 - val_loss: 1.0949 - val_accuracy: 0.4067
+[[1637  930  897]
+ [ 955 1007  729]
+ [1323  740  800]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4180 - accuracy: 0.3819
+
+
+
+Epoch 152/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9461 - accuracy: 0.5575 - val_loss: 1.0955 - val_accuracy: 0.4059
+[[1580 1032  852]
+ [ 922 1097  672]
+ [1281  820  762]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4204 - accuracy: 0.3813
+
+
+
+Epoch 153/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9452 - accuracy: 0.5600 - val_loss: 1.0972 - val_accuracy: 0.4064
+[[1642  860  962]
+ [ 975  923  793]
+ [1326  690  847]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4249 - accuracy: 0.3784
+
+
+
+Epoch 154/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9435 - accuracy: 0.5617 - val_loss: 1.0977 - val_accuracy: 0.4067
+[[1607  948  909]
+ [ 943 1016  732]
+ [1304  754  805]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4293 - accuracy: 0.3801
+
+
+
+Epoch 155/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9431 - accuracy: 0.5617 - val_loss: 1.0973 - val_accuracy: 0.4045
+[[1578  987  899]
+ [ 928 1046  717]
+ [1276  789  798]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4319 - accuracy: 0.3795
+
+
+
+Epoch 156/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9410 - accuracy: 0.5620 - val_loss: 1.0986 - val_accuracy: 0.4045
+[[1624  906  934]
+ [ 954  976  761]
+ [1308  723  832]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4340 - accuracy: 0.3806
+
+
+
+Epoch 157/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9398 - accuracy: 0.5660 - val_loss: 1.0998 - val_accuracy: 0.4039
+[[1527  972  965]
+ [ 897 1024  770]
+ [1254  764  845]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4363 - accuracy: 0.3766
+
+
+
+Epoch 158/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9387 - accuracy: 0.5650 - val_loss: 1.0999 - val_accuracy: 0.4053
+[[1525 1030  909]
+ [ 877 1092  722]
+ [1244  818  801]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4359 - accuracy: 0.3790
+
+
+
+Epoch 159/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9368 - accuracy: 0.5659 - val_loss: 1.1003 - val_accuracy: 0.4056
+[[1522  982  960]
+ [ 881 1032  778]
+ [1243  777  843]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4304 - accuracy: 0.3767
+
+
+
+Epoch 160/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9356 - accuracy: 0.5697 - val_loss: 1.1012 - val_accuracy: 0.4053
+[[1545  937  982]
+ [ 904  982  805]
+ [1266  747  850]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4408 - accuracy: 0.3745
+
+
+
+Epoch 161/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9343 - accuracy: 0.5682 - val_loss: 1.1021 - val_accuracy: 0.4026
+[[1565  940  959]
+ [ 923  987  781]
+ [1281  747  835]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4503 - accuracy: 0.3756
+
+
+
+Epoch 162/500
+254/254 [==============================] - 31s 122ms/step - loss: 0.9342 - accuracy: 0.5702 - val_loss: 1.1025 - val_accuracy: 0.4037
+[[1555  921  988]
+ [ 915  973  803]
+ [1267  738  858]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4401 - accuracy: 0.3755
+
+
+
+Epoch 163/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9314 - accuracy: 0.5707 - val_loss: 1.1025 - val_accuracy: 0.4031
+[[1564  949  951]
+ [ 931  983  777]
+ [1279  744  840]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4424 - accuracy: 0.3756
+
+
+
+Epoch 164/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9310 - accuracy: 0.5690 - val_loss: 1.1043 - val_accuracy: 0.4048
+[[1485 1066  913]
+ [ 859 1113  719]
+ [1216  847  800]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4505 - accuracy: 0.3768
+
+
+
+Epoch 165/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9289 - accuracy: 0.5699 - val_loss: 1.1054 - val_accuracy: 0.4037
+[[1494 1016  954]
+ [ 854 1065  772]
+ [1229  802  832]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4406 - accuracy: 0.3760
+
+
+
+Epoch 166/500
+254/254 [==============================] - 31s 121ms/step - loss: 0.9285 - accuracy: 0.5737 - val_loss: 1.1054 - val_accuracy: 0.4037
+[[1524  961  979]
+ [ 894 1000  797]
+ [1255  758  850]]
+71/71 [==============================] - 3s 34ms/step - loss: 1.4577 - accuracy: 0.3741
+
+
+
+
+BEST:
+Epoch 117/500
+254/254 [==============================] - 31s 123ms/step - loss: 0.9866 - accuracy: 0.5283 - val_loss: 1.0787 - val_accuracy: 0.4023
+[[1623 1036  805]
+ [ 918 1202  571]
+ [1317  873  673]]
+71/71 [==============================] - 3s 35ms/step - loss: 1.3162 - accuracy: 0.3879

@@ -1,0 +1,182 @@
+PS C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN> C:/ProgramData/Anaconda3/envs/tf/python.exe c:/Users/Tuna/Desktop/2022-spring/CS402/SPDPvCNN/training.py
+2022-06-11 05:10:34.357837: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-11 05:10:34.739657: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3495 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+wandb: Currently logged in as: kuantuna (spdpvcnn). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.16
+wandb: Run data is saved locally in C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN\wandb\run-20220611_051035-17gzwuo8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rose-star-149
+wandb:  View project at https://wandb.ai/spdpvcnn/convmixer
+wandb:  View run at https://wandb.ai/spdpvcnn/convmixer/runs/17gzwuo8
+Training data samples: 32465
+Validation data samples: 3607
+Test data samples: 9018
+2022-06-11 05:10:41.269638: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-06-11 05:12:33.897835: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Getting the ConvMixer model...
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-06-11 05:13:18.226495: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-06-11 05:13:18.479728: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 1/500
+lr at epoch 1: 0.0010000000474974513
+2022-06-11 05:13:20.828680: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-06-11 05:13:22.141333: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+2022-06-11 05:13:24.586026: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+  6/508 [..............................] - ETA: 1:42 - loss: 1.0642 - accuracy: 0.4349WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0376s vs `on_train_batch_end` time: 0.1390s). Check your callbacks.
+508/508 [==============================] - 113s 210ms/step - loss: 1.0607 - accuracy: 0.5395 - val_loss: 0.9178 - val_accuracy: 0.6274
+[[   0 1797    0]
+ [   0 5625    0]
+ [   0 1596    0]]
+f1 score: 0.47921980255837426
+141/141 [==============================] - 4s 27ms/step - loss: 0.9261 - accuracy: 0.6238
+buy&sell test accuracy_t: 0 / 3393 = 0.0
+buy&sell test accuracy_o: 0 / 0 = 0
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+2022-06-11 05:15:19.805267: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 2/500
+lr at epoch 2: 1.0007238415710162e-05
+508/508 [==============================] - 107s 211ms/step - loss: 1.0228 - accuracy: 0.5756 - val_loss: 0.9099 - val_accuracy: 0.6249
+[[ 280 1375  142]
+ [ 258 5193  174]
+ [ 208 1281  107]]
+f1 score: 0.5434394598304262
+141/141 [==============================] - 4s 27ms/step - loss: 0.9768 - accuracy: 0.6188
+buy&sell test accuracy_t: 387 / 3393 = 0.1141
+buy&sell test accuracy_o: 387 / 1169 = 0.3311
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 3/500
+lr at epoch 3: 1.5007238289399538e-05
+508/508 [==============================] - 107s 211ms/step - loss: 0.9854 - accuracy: 0.6087 - val_loss: 0.8765 - val_accuracy: 0.6551
+[[  53 1157  587]
+ [  60 4484 1081]
+ [  35 1070  491]]
+f1 score: 0.5105974553937693
+141/141 [==============================] - 4s 27ms/step - loss: 1.0011 - accuracy: 0.5576
+buy&sell test accuracy_t: 544 / 3393 = 0.1603
+buy&sell test accuracy_o: 544 / 2307 = 0.2358
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 4/500
+lr at epoch 4: 2.0007239072583616e-05
+508/508 [==============================] - 108s 212ms/step - loss: 0.9443 - accuracy: 0.6278 - val_loss: 0.8701 - val_accuracy: 0.6507
+[[ 335 1387   75]
+ [ 278 5246  101]
+ [ 279 1262   55]]
+f1 score: 0.5443599503528247
+141/141 [==============================] - 4s 27ms/step - loss: 0.9621 - accuracy: 0.6250
+buy&sell test accuracy_t: 390 / 3393 = 0.1149
+buy&sell test accuracy_o: 390 / 1123 = 0.3473
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 5/500
+lr at epoch 5: 2.500723894627299e-05
+508/508 [==============================] - 108s 212ms/step - loss: 0.9010 - accuracy: 0.6495 - val_loss: 0.8340 - val_accuracy: 0.6557
+[[ 261 1321  215]
+ [ 265 4994  366]
+ [ 232 1190  174]]
+f1 score: 0.541397344345649
+141/141 [==============================] - 4s 27ms/step - loss: 0.9738 - accuracy: 0.6020
+buy&sell test accuracy_t: 435 / 3393 = 0.1282
+buy&sell test accuracy_o: 435 / 1513 = 0.2875
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 6/500
+lr at epoch 6: 3.0007238819962367e-05
+508/508 [==============================] - 108s 213ms/step - loss: 0.8540 - accuracy: 0.6649 - val_loss: 0.8206 - val_accuracy: 0.6573
+[[ 273 1393  131]
+ [ 221 5152  252]
+ [ 223 1235  138]]
+f1 score: 0.5458100028885116
+141/141 [==============================] - 4s 27ms/step - loss: 0.9953 - accuracy: 0.6169
+buy&sell test accuracy_t: 411 / 3393 = 0.1211
+buy&sell test accuracy_o: 411 / 1238 = 0.332
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 7/500
+lr at epoch 7: 3.500723687466234e-05
+508/508 [==============================] - 108s 212ms/step - loss: 0.8083 - accuracy: 0.6795 - val_loss: 0.8168 - val_accuracy: 0.6543
+[[ 136 1478  183]
+ [ 128 5279  218]
+ [  94 1319  183]]
+f1 score: 0.53552839586372
+141/141 [==============================] - 4s 27ms/step - loss: 0.9575 - accuracy: 0.6208
+buy&sell test accuracy_t: 319 / 3393 = 0.094
+buy&sell test accuracy_o: 319 / 942 = 0.3386
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 8/500
+lr at epoch 8: 4.000723856734112e-05
+508/508 [==============================] - 108s 214ms/step - loss: 0.7642 - accuracy: 0.6943 - val_loss: 0.9230 - val_accuracy: 0.6321
+[[ 146 1646    5]
+ [ 130 5481   14]
+ [ 106 1484    6]]
+f1 score: 0.5083150487612687
+141/141 [==============================] - 4s 27ms/step - loss: 1.0246 - accuracy: 0.6246
+buy&sell test accuracy_t: 152 / 3393 = 0.0448
+buy&sell test accuracy_o: 152 / 407 = 0.3735
+
+
+
+Epoch 9/500
+lr at epoch 9: 4.50072402600199e-05
+293/508 [================>.............] - ETA: 45s - loss: 0.6862 - accuracy: 0.7403
+508/508 [==============================] - 108s 213ms/step - loss: 0.7251 - accuracy: 0.7089 - val_loss: 0.8681 - val_accuracy: 0.6429
+[[ 170 1609   18]
+ [ 147 5463   15]
+ [ 125 1463    8]]
+f1 score: 0.5132831249364097
+141/141 [==============================] - 4s 27ms/step - loss: 1.0590 - accuracy: 0.6255
+buy&sell test accuracy_t: 178 / 3393 = 0.0525
+buy&sell test accuracy_o: 178 / 483 = 0.3685
+
+
+
+Epoch 10/500
+lr at epoch 10: 5.000723831471987e-05
+508/508 [==============================] - 108s 213ms/step - loss: 0.6839 - accuracy: 0.7224 - val_loss: 0.8689 - val_accuracy: 0.6593
+[[  39 1392  366]
+ [  22 4986  617]
+ [  22 1233  341]]
+f1 score: 0.5195381178304239
+141/141 [==============================] - 4s 27ms/step - loss: 1.1522 - accuracy: 0.5950
+buy&sell test accuracy_t: 380 / 3393 = 0.112
+buy&sell test accuracy_o: 380 / 1407 = 0.2701
+
+
+
+Epoch 11/500
+lr at epoch 11: 5.500724000739865e-05
+508/508 [==============================] - 108s 214ms/step - loss: 0.6463 - accuracy: 0.7400 - val_loss: 0.8862 - val_accuracy: 0.6518
+[[ 265 1435   97]
+ [ 229 5148  248]
+ [ 204 1301   91]]
+f1 score: 0.5335793057444954
+141/141 [==============================] - 4s 27ms/step - loss: 1.2024 - accuracy: 0.6103
+buy&sell test accuracy_t: 356 / 3393 = 0.1049
+buy&sell test accuracy_o: 356 / 1134 = 0.3139

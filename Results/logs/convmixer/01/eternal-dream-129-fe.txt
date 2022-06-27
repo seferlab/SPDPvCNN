@@ -1,0 +1,1192 @@
+[{'mpp': 0.4955765661083134, 'model': 46}, {'mpp': 0.48128959894304835, 'model': 57}, {'mpp': 0.47457289673882325, 'model': 31}, {'mpp': 0.4684962631529732, 'model': 45}, {'mpp': 0.46262329633081645, 'model': 54}, {'mpp': 0.45793161427475276, 'model': 77}, {'mpp': 0.45039705988220646, 'model': 49}, {'mpp': 0.44975935902342784, 'model': 74}, {'mpp': 0.44355898109286396, 'model': 52}, {'mpp': 0.44127241485389324, 'model': 51}, {'mpp': 0.43522888483391214, 'model': 78}, {'mpp': 0.43466474997577054, 'model': 71}, {'mpp': 0.43422493627316655, 'model': 48}, {'mpp': 0.434218651405873, 'model': 66}, {'mpp': 0.4319329880844804, 'model': 43}, {'mpp': 0.4286156271437054, 'model': 76}, {'mpp': 0.4254463358286973, 'model': 42}, {'mpp': 0.4249713091397998, 'model': 50}, {'mpp': 0.42038814723042184, 'model': 28}, {'mpp': 0.41435875933110733, 'model': 27}, {'mpp': 0.4130545885478666, 'model': 80}, {'mpp': 0.4100486036647253, 'model': 53}, {'mpp': 0.4076429848087065, 'model': 34}, {'mpp': 0.40753814681839945, 'model': 32}, {'mpp': 0.40532836421680046, 'model': 67}, {'mpp': 0.4042022193960654, 'model': 30}, {'mpp': 0.40071245906481945, 'model': 55}, {'mpp': 0.3978892446794352, 'model': 63}, {'mpp': 0.3952515964373865, 'model': 33}, {'mpp': 0.3949945548455994, 'model': 44}, {'mpp': 0.3946563769020826, 'model': 62}, {'mpp': 0.38097467829455156, 'model': 68}, {'mpp': 0.3807572957473569, 'model': 73}, {'mpp': 0.3805601358076349, 'model': 85}, {'mpp': 0.37526730165562394, 'model': 72}, {'mpp': 0.3751273852265487, 'model': 61}, {'mpp': 0.37361471896815046, 'model': 69}, {'mpp': 0.37189845910843605, 'model': 58}, {'mpp': 0.3708049922622448, 'model': 56}, {'mpp': 0.3698562034351742, 'model': 29}, {'mpp': 0.36962757439011235, 'model': 60}, {'mpp': 0.36800363254338825, 'model': 37}, {'mpp': 0.36677692063321465, 'model': 65}, {'mpp': 0.3651778241229692, 'model': 38}, {'mpp': 0.36513058396245196, 'model': 39}, {'mpp': 0.3641838455321389, 'model': 35}, {'mpp': 0.3640815398953283, 'model': 96}, {'mpp': 0.3638789134117658, 'model': 98}, {'mpp': 0.3626494003730195, 'model': 81}, {'mpp': 0.36219474974305155, 'model': 41}, {'mpp': 0.3590732113815595, 'model': 70}, {'mpp': 0.35771210815710336, 'model': 24}, {'mpp': 0.3574360177300566, 'model': 59}, {'mpp': 0.35567868293343874, 'model': 40}, {'mpp': 0.3519775268819655, 'model': 47}, {'mpp': 0.34956341349489173, 'model': 84}, {'mpp': 0.34788466979167887, 'model': 25}, {'mpp': 0.3474809529760265, 'model': 83}, {'mpp': 0.344256684243472, 'model': 75}, {'mpp': 0.3432082209885928, 'model': 95}, {'mpp': 0.34169200649802234, 'model': 100}, {'mpp': 0.3411973238643309, 'model': 106}, {'mpp': 0.3394570673750323, 'model': 111}, {'mpp': 0.33623493108154967, 'model': 36}, {'mpp': 0.3339977605340538, 'model': 102}, {'mpp': 0.3310914326139932, 'model': 26}, {'mpp': 0.32635335200768023, 'model': 1}, {'mpp': 0.3205837029697302, 'model': 64}, {'mpp': 0.31417332024158384, 'model': 82}, {'mpp': 0.31374912846996555, 'model': 79}, {'mpp': 0.3126910646629642, 'model': 94}, {'mpp': 0.31075547036532647, 'model': 101}, {'mpp': 0.3102280275928518, 'model': 91}, {'mpp': 0.30779283934964924, 'model': 23}, {'mpp': 0.3037665055152186, 'model': 2}, {'mpp': 0.2911633659020463, 'model': 92}, {'mpp': 0.2903587701967699, 'model': 87}, {'mpp': 0.28776137815522923, 'model': 93}, {'mpp': 0.286573480682736, 'model': 103}, {'mpp': 0.2852207825129681, 'model': 99}, {'mpp': 0.27495876215098636, 'model': 89}, {'mpp': 0.2714965449255782, 'model': 114}, {'mpp': 0.2703204910640026, 'model': 113}, {'mpp': 0.2608955192784476, 'model': 88}, {'mpp': 0.2576498955811251, 'model': 112}, {'mpp': 0.2546975879248063, 'model': 86}, {'mpp': 0.24977580638349903, 'model': 108}, {'mpp': 0.2478572637922315, 'model': 90}, {'mpp': 0.24740596680860616, 'model': 107}, {'mpp': 0.24079759946004517, 'model': 97}, {'mpp': 0.23968803381338344, 'model': 104}, {'mpp': 0.23485231116261623, 'model': 109}, {'mpp': 0.23445730205265505, 'model': 110}, {'mpp': 0.2335056095178824, 'model': 105}, {'mpp': 0.2301052805937072, 'model': 21}, {'mpp': 0.19318671765759443, 'model': 19}, {'mpp': 0.19220321132605023, 'model': 22}, {'mpp': 0.1658787706141899, 'model': 3}, {'mpp': 0.15142487114948647, 'model': 20}, {'mpp': 0.12347923141494516, 'model': 9}, {'mpp': 0.09686856576419124, 'model': 8}, {'mpp': 0.09440958033640258, 'model': 10}, {'mpp': 0.09321187796025668, 'model': 5}, {'mpp': 0.0873816906810683, 'model': 11}, {'mpp': 0.0801658963426205, 'model': 7}, {'mpp': 0.07049394150643817, 'model': 17}, {'mpp': 0.05959749453024851, 'model': 12}, {'mpp': 0.05648476656180337, 'model': 6}, {'mpp': 0.05091500804008691, 'model': 4}, {'mpp': 0.04572088761781344, 'model': 13}, {'mpp': 0.043331371229303625, 'model': 15}, {'mpp': 0.033683003604878116, 'model': 18}, {'mpp': 0.01693119502888312, 'model': 14}, {'mpp': 0.012627344619299473, 'model': 16}]
+[46, 57, 31, 45, 54, 77, 49, 74, 52, 51, 78, 71, 48, 66, 43, 76, 42, 50, 28, 27, 80, 53, 34, 32, 67, 30, 55, 63, 33, 44, 62, 68, 73, 85, 72, 61, 69, 58, 56, 29, 60, 37, 65, 38, 39, 35, 96, 98, 81, 41, 70, 24, 59, 40, 47, 84, 25, 83, 75, 95, 100, 106, 111, 36, 102, 26, 1, 64, 82, 79, 94, 101, 91, 23, 2, 92, 87, 93, 103, 99, 89, 114, 113, 88, 112, 86, 108, 90, 107, 97, 104, 109, 110, 105, 21, 19, 22, 3, 20, 9, 8, 10, 5, 11, 7, 17, 12, 6, 4, 13, 15, 18, 14, 16]
+
+[46, 57, 31, 45, 54, 77, 49, 74, 52, 51, 78, 71, 48, 66, 43, 76, 42, 50, 28, 27, 80, 53, 34, 32, 67, 30, 55, 63, 33, 44, 62, 68, 73, 85, 72, 61, 69, 58, 56, 29, 60, 37, 65, 38, 39, 35, 96, 98, 81, 41, 70, 24, 59, 40]
+
+
+MODEL46
+{'USD': 10451.999003003668, 'XLF': 0, 'v_USD': 10451.999003003668, 'v_XLF': 280.139335789087, 'buy_count': 2, 'hold_count': 965, 'sell_count': 2}
+Profit percentage: 0.04519990030036669
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 14811.76189741042, 'SPY': 0, 'v_USD': 14811.76189741042, 'v_SPY': 33.41174793932478, 'buy_count': 2, 'hold_count': 985, 'sell_count': 2}
+Profit percentage: 0.48117618974104204
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 936, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13956.431042376937, 'XLY': 0, 'v_USD': 13956.431042376937, 'v_XLY': 77.13718900871378, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.39564310423769355
+{'USD': 0, 'XLE': 260.061181742585, 'v_USD': 20698.268502519848, 'v_XLE': 260.061181742585, 'buy_count': 2, 'hold_count': 894, 'sell_count': 1}
+Profit percentage: 1.0698268502519848
+Model profit percentage: 0.4955765661083134
+
+Getting the ConvMixer model...
+MODEL57
+{'USD': 12033.267666290096, 'XLF': 0, 'v_USD': 12033.267666290096, 'v_XLF': 322.5212335399245, 'buy_count': 2, 'hold_count': 972, 'sell_count': 2}
+Profit percentage: 0.2033267666290095
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12644.545121421794, 'SPY': 0, 'v_USD': 12644.545121421794, 'v_SPY': 28.523031718341795, 'buy_count': 1, 'hold_count': 987, 'sell_count': 1}
+Profit percentage: 0.2644545121421793
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 983, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 407.1009000745996, 'v_USD': 15306.99322161827, 'v_EWZ': 407.1009000745996, 'buy_count': 2, 'hold_count': 936, 'sell_count': 1}
+Profit percentage: 0.530699322161827
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 252.31717867126343, 'v_USD': 20081.923326432752, 'v_XLE': 252.31717867126343, 'buy_count': 3, 'hold_count': 886, 'sell_count': 2}
+Profit percentage: 1.0081923326432753
+Model profit percentage: 0.48128959894304835
+
+Getting the ConvMixer model...
+MODEL31
+{'USD': 14282.905031945975, 'XLF': 0, 'v_USD': 14282.905031945975, 'v_XLF': 382.81705993639093, 'buy_count': 7, 'hold_count': 939, 'sell_count': 7}
+Profit percentage: 0.4282905031945974
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 18193.71878130565, 'QQQ': 0, 'v_USD': 18193.71878130565, 'v_QQQ': 52.52986418561803, 'buy_count': 2, 'hold_count': 957, 'sell_count': 2}
+Profit percentage: 0.8193718781305652
+{'USD': 14215.079142871224, 'SPY': 0, 'v_USD': 14215.079142871224, 'v_SPY': 32.065776141203244, 'buy_count': 5, 'hold_count': 956, 'sell_count': 5}
+Profit percentage: 0.4215079142871223
+{'USD': 0, 'XLP': 196.63530497079427, 'v_USD': 15506.6602700135, 'v_XLP': 196.63530497079427, 'buy_count': 3, 'hold_count': 960, 'sell_count': 2}
+Profit percentage: 0.5506660270013501
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 920, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 517.7274016250456, 'v_USD': 11426.243595866892, 'v_EWH': 517.7274016250456, 'buy_count': 2, 'hold_count': 942, 'sell_count': 1}
+Profit percentage: 0.14262435958668918
+{'USD': 13588.932111791435, 'XLY': 0, 'v_USD': 13588.932111791435, 'v_XLY': 75.10602256057246, 'buy_count': 1, 'hold_count': 957, 'sell_count': 1}
+Profit percentage: 0.3588932111791434
+{'USD': 0, 'XLE': 215.01966752569032, 'v_USD': 17113.41455094415, 'v_XLE': 215.01966752569032, 'buy_count': 4, 'hold_count': 849, 'sell_count': 3}
+Profit percentage: 0.711341455094415
+Model profit percentage: 0.47457289673882325
+
+Getting the ConvMixer model...
+MODEL45
+{'USD': 10451.999003003668, 'XLF': 0, 'v_USD': 10451.999003003668, 'v_XLF': 280.139335789087, 'buy_count': 2, 'hold_count': 966, 'sell_count': 2}
+Profit percentage: 0.04519990030036669
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12847.484042792948, 'SPY': 0, 'v_USD': 12847.484042792948, 'v_SPY': 28.980812780101704, 'buy_count': 2, 'hold_count': 984, 'sell_count': 2}
+Profit percentage: 0.28474840427929493
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 981, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 256.55619384774286, 'v_USD': 20419.306528805013, 'v_XLE': 256.55619384774286, 'buy_count': 2, 'hold_count': 881, 'sell_count': 1}
+Profit percentage: 1.0419306528805015
+Model profit percentage: 0.4684962631529732
+
+Getting the ConvMixer model...
+MODEL54
+{'USD': 10655.51331953002, 'XLF': 0, 'v_USD': 10655.51331953002, 'v_XLF': 285.5940211022867, 'buy_count': 4, 'hold_count': 970, 'sell_count': 4}
+Profit percentage: 0.06555133195300211
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12582.079570239783, 'SPY': 0, 'v_USD': 12582.079570239783, 'v_SPY': 28.382124561891406, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.25820795702397836
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 983, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 387.4125166531142, 'v_USD': 14566.710035012507, 'v_EWZ': 387.4125166531142, 'buy_count': 4, 'hold_count': 935, 'sell_count': 3}
+Profit percentage: 0.45667100350125067
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 993, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 258.6061078392208, 'v_USD': 20582.45917587973, 'v_XLE': 258.6061078392208, 'buy_count': 3, 'hold_count': 880, 'sell_count': 2}
+Profit percentage: 1.058245917587973
+Model profit percentage: 0.46262329633081645
+
+Getting the ConvMixer model...
+MODEL77
+{'USD': 9624.911146557795, 'XLF': 0, 'v_USD': 9624.911146557795, 'v_XLF': 257.9713425968391, 'buy_count': 6, 'hold_count': 971, 'sell_count': 6}
+Profit percentage: -0.03750888534422048
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 12426.11493267246, 'SPY': 0, 'v_USD': 12426.11493267246, 'v_SPY': 28.0303061088309, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.24261149326724607
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 986, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 404.656969573607, 'v_USD': 15215.10143851009, 'v_EWZ': 404.656969573607, 'buy_count': 5, 'hold_count': 944, 'sell_count': 4}
+Profit percentage: 0.521510143851009
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 896, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.45793161427475276
+
+Getting the ConvMixer model...
+MODEL49
+{'USD': 10451.999003003668, 'XLF': 0, 'v_USD': 10451.999003003668, 'v_XLF': 280.139335789087, 'buy_count': 2, 'hold_count': 966, 'sell_count': 2}
+Profit percentage: 0.04519990030036669
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14491.895623398274, 'QQQ': 0, 'v_USD': 14491.895623398274, 'v_QQQ': 41.84176517400435, 'buy_count': 1, 'hold_count': 989, 'sell_count': 1}
+Profit percentage: 0.44918956233982743
+{'USD': 14811.76189741042, 'SPY': 0, 'v_USD': 14811.76189741042, 'v_SPY': 33.41174793932478, 'buy_count': 2, 'hold_count': 983, 'sell_count': 2}
+Profit percentage: 0.48117618974104204
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 936, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 993, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 268.2233569503012, 'v_USD': 21347.8959974112, 'v_XLE': 268.2233569503012, 'buy_count': 2, 'hold_count': 897, 'sell_count': 1}
+Profit percentage: 1.13478959974112
+Model profit percentage: 0.45039705988220646
+
+Getting the ConvMixer model...
+MODEL74
+{'USD': 9849.574793935304, 'XLF': 0, 'v_USD': 9849.574793935304, 'v_XLF': 263.99288210657335, 'buy_count': 3, 'hold_count': 972, 'sell_count': 3}
+Profit percentage: -0.0150425206064696
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 986, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 449.0317301135616, 'v_USD': 16883.59236710187, 'v_EWZ': 449.0317301135616, 'buy_count': 9, 'hold_count': 946, 'sell_count': 8}
+Profit percentage: 0.6883592367101872
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 976, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 892, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.44975935902342784
+
+Getting the ConvMixer model...
+MODEL52
+{'USD': 10731.838915244629, 'XLF': 0, 'v_USD': 10731.838915244629, 'v_XLF': 287.6397351978441, 'buy_count': 2, 'hold_count': 968, 'sell_count': 2}
+Profit percentage: 0.07318389152446292
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 14738.590885202955, 'SPY': 0, 'v_USD': 14738.590885202955, 'v_SPY': 33.246691855296824, 'buy_count': 2, 'hold_count': 980, 'sell_count': 2}
+Profit percentage: 0.47385908852029557
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 969, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 260.061181742585, 'v_USD': 20698.268502519848, 'v_XLE': 260.061181742585, 'buy_count': 2, 'hold_count': 883, 'sell_count': 1}
+Profit percentage: 1.0698268502519848
+Model profit percentage: 0.44355898109286396
+
+Getting the ConvMixer model...
+MODEL51
+{'USD': 10731.838915244629, 'XLF': 0, 'v_USD': 10731.838915244629, 'v_XLF': 287.6397351978441, 'buy_count': 2, 'hold_count': 967, 'sell_count': 2}
+Profit percentage: 0.07318389152446292
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 14811.76189741042, 'SPY': 0, 'v_USD': 14811.76189741042, 'v_SPY': 33.41174793932478, 'buy_count': 2, 'hold_count': 982, 'sell_count': 2}
+Profit percentage: 0.48117618974104204
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 981, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 976, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 256.55619384774286, 'v_USD': 20419.306528805013, 'v_XLE': 256.55619384774286, 'buy_count': 2, 'hold_count': 880, 'sell_count': 1}
+Profit percentage: 1.0419306528805015
+Model profit percentage: 0.44127241485389324
+
+Getting the ConvMixer model...
+MODEL78
+{'USD': 9624.911146557795, 'XLF': 0, 'v_USD': 9624.911146557795, 'v_XLF': 257.9713425968391, 'buy_count': 6, 'hold_count': 970, 'sell_count': 6}
+Profit percentage: -0.03750888534422048
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 10401.190168032896, 'SPY': 0, 'v_USD': 10401.190168032896, 'v_SPY': 23.462566207201622, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.040119016803289664
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 986, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 404.656969573607, 'v_USD': 15215.10143851009, 'v_EWZ': 404.656969573607, 'buy_count': 5, 'hold_count': 939, 'sell_count': 4}
+Profit percentage: 0.521510143851009
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 998, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13637.429587874542, 'XLY': 0, 'v_USD': 13637.429587874542, 'v_XLY': 75.37406809224952, 'buy_count': 1, 'hold_count': 975, 'sell_count': 1}
+Profit percentage: 0.3637429587874541
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 879, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.43522888483391214
+
+Getting the ConvMixer model...
+MODEL71
+{'USD': 9971.618617787028, 'XLF': 0, 'v_USD': 9971.618617787028, 'v_XLF': 267.2639574043376, 'buy_count': 6, 'hold_count': 974, 'sell_count': 6}
+Profit percentage: -0.002838138221297193
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 991, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 0, 'QQQ': 56.61947709185808, 'v_USD': 19610.156236342908, 'v_QQQ': 56.61947709185808, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.9610156236342908
+{'USD': 10823.44953368165, 'SPY': 0, 'v_USD': 10823.44953368165, 'v_SPY': 24.415081079354813, 'buy_count': 1, 'hold_count': 984, 'sell_count': 1}
+Profit percentage: 0.08234495336816505
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 377.497912606572, 'v_USD': 14193.920937991006, 'v_EWZ': 377.497912606572, 'buy_count': 4, 'hold_count': 942, 'sell_count': 3}
+Profit percentage: 0.4193920937991007
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 253.73845025645733, 'v_USD': 20195.04232669348, 'v_XLE': 253.73845025645733, 'buy_count': 2, 'hold_count': 892, 'sell_count': 1}
+Profit percentage: 1.0195042326693482
+Model profit percentage: 0.43466474997577054
+
+Getting the ConvMixer model...
+MODEL48
+{'USD': 10700.822674504838, 'XLF': 0, 'v_USD': 10700.822674504838, 'v_XLF': 286.80842349593695, 'buy_count': 4, 'hold_count': 961, 'sell_count': 4}
+Profit percentage: 0.07008226745048374
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12743.683975704942, 'SPY': 0, 'v_USD': 12743.683975704942, 'v_SPY': 28.746664965570886, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.27436839757049425
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 977, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 537.0031981379689, 'v_USD': 11851.660419024602, 'v_EWH': 537.0031981379689, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.1851660419024601
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 214.7902032670593, 'v_USD': 17095.151491440032, 'v_XLE': 214.7902032670593, 'buy_count': 3, 'hold_count': 871, 'sell_count': 2}
+Profit percentage: 0.7095151491440033
+Model profit percentage: 0.43422493627316655
+
+Getting the ConvMixer model...
+MODEL66
+{'USD': 10192.827782962315, 'XLF': 0, 'v_USD': 10192.827782962315, 'v_XLF': 273.1929082763052, 'buy_count': 2, 'hold_count': 973, 'sell_count': 2}
+Profit percentage: 0.019282778296231484
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12582.079570239783, 'SPY': 0, 'v_USD': 12582.079570239783, 'v_SPY': 28.382124561891406, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.25820795702397836
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 386.91702915835594, 'v_USD': 14548.07970596565, 'v_EWZ': 386.91702915835594, 'buy_count': 7, 'hold_count': 939, 'sell_count': 6}
+Profit percentage: 0.4548079705965651
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 980, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 231.37422912626235, 'v_USD': 18415.07404884149, 'v_XLE': 231.37422912626235, 'buy_count': 2, 'hold_count': 881, 'sell_count': 1}
+Profit percentage: 0.8415074048841489
+Model profit percentage: 0.434218651405873
+
+Getting the ConvMixer model...
+MODEL43
+{'USD': 10494.547337523076, 'XLF': 0, 'v_USD': 10494.547337523076, 'v_XLF': 281.2797360290577, 'buy_count': 3, 'hold_count': 960, 'sell_count': 3}
+Profit percentage: 0.04945473375230769
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12743.683975704942, 'SPY': 0, 'v_USD': 12743.683975704942, 'v_SPY': 28.746664965570886, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.27436839757049425
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 979, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 537.0031981379689, 'v_USD': 11851.660419024602, 'v_EWH': 537.0031981379689, 'buy_count': 1, 'hold_count': 984, 'sell_count': 0}
+Profit percentage: 0.1851660419024601
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 214.7902032670593, 'v_USD': 17095.151491440032, 'v_XLE': 214.7902032670593, 'buy_count': 3, 'hold_count': 867, 'sell_count': 2}
+Profit percentage: 0.7095151491440033
+Model profit percentage: 0.4319329880844804
+
+Getting the ConvMixer model...
+MODEL76
+{'USD': 9624.911146557795, 'XLF': 0, 'v_USD': 9624.911146557795, 'v_XLF': 257.9713425968391, 'buy_count': 6, 'hold_count': 970, 'sell_count': 6}
+Profit percentage: -0.03750888534422048
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 986, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 429.5232302603608, 'v_USD': 16150.072802389128, 'v_EWZ': 429.5232302603608, 'buy_count': 9, 'hold_count': 938, 'sell_count': 8}
+Profit percentage: 0.6150072802389128
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13637.429587874542, 'XLY': 0, 'v_USD': 13637.429587874542, 'v_XLY': 75.37406809224952, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.3637429587874541
+{'USD': 0, 'XLE': 231.37422912626235, 'v_USD': 18415.07404884149, 'v_XLE': 231.37422912626235, 'buy_count': 2, 'hold_count': 874, 'sell_count': 1}
+Profit percentage: 0.8415074048841489
+Model profit percentage: 0.4286156271437054
+
+Getting the ConvMixer model...
+MODEL42
+{'USD': 10377.558014435539, 'XLF': 0, 'v_USD': 10377.558014435539, 'v_XLF': 278.1441338103109, 'buy_count': 4, 'hold_count': 959, 'sell_count': 4}
+Profit percentage: 0.03775580144355395
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12743.683975704942, 'SPY': 0, 'v_USD': 12743.683975704942, 'v_SPY': 28.746664965570886, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.27436839757049425
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 975, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 932, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 537.0031981379689, 'v_USD': 11851.660419024602, 'v_EWH': 537.0031981379689, 'buy_count': 1, 'hold_count': 979, 'sell_count': 0}
+Profit percentage: 0.1851660419024601
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 981, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 208.9250267196054, 'v_USD': 16628.342111507096, 'v_XLE': 208.9250267196054, 'buy_count': 3, 'hold_count': 864, 'sell_count': 2}
+Profit percentage: 0.6628342111507095
+Model profit percentage: 0.4254463358286973
+
+Getting the ConvMixer model...
+MODEL50
+{'USD': 10335.506240917906, 'XLF': 0, 'v_USD': 10335.506240917906, 'v_XLF': 277.01704262913137, 'buy_count': 3, 'hold_count': 963, 'sell_count': 3}
+Profit percentage: 0.03355062409179066
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 993, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 12784.016028572927, 'SPY': 0, 'v_USD': 12784.016028572927, 'v_SPY': 28.83764430979976, 'buy_count': 2, 'hold_count': 982, 'sell_count': 2}
+Profit percentage: 0.27840160285729265
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 981, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 407.1009000745996, 'v_USD': 15306.99322161827, 'v_EWZ': 407.1009000745996, 'buy_count': 2, 'hold_count': 934, 'sell_count': 1}
+Profit percentage: 0.530699322161827
+{'USD': 0, 'EWH': 537.0031981379689, 'v_USD': 11851.660419024602, 'v_EWH': 537.0031981379689, 'buy_count': 1, 'hold_count': 991, 'sell_count': 0}
+Profit percentage: 0.1851660419024601
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 207.0216925082083, 'v_USD': 16476.855748592217, 'v_XLE': 207.0216925082083, 'buy_count': 3, 'hold_count': 873, 'sell_count': 2}
+Profit percentage: 0.6476855748592218
+Model profit percentage: 0.4249713091397998
+
+Getting the ConvMixer model...
+MODEL28
+{'USD': 13390.993587750769, 'XLF': 0, 'v_USD': 13390.993587750769, 'v_XLF': 358.91163481266807, 'buy_count': 8, 'hold_count': 934, 'sell_count': 8}
+Profit percentage: 0.3390993587750768
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 18193.71878130565, 'QQQ': 0, 'v_USD': 18193.71878130565, 'v_QQQ': 52.52986418561803, 'buy_count': 2, 'hold_count': 953, 'sell_count': 2}
+Profit percentage: 0.8193718781305652
+{'USD': 11766.616901739628, 'SPY': 0, 'v_USD': 11766.616901739628, 'v_SPY': 26.542638258873, 'buy_count': 7, 'hold_count': 947, 'sell_count': 7}
+Profit percentage: 0.17666169017396283
+{'USD': 0, 'XLP': 216.98795510034776, 'v_USD': 17111.67027165236, 'v_XLP': 216.98795510034776, 'buy_count': 4, 'hold_count': 955, 'sell_count': 3}
+Profit percentage: 0.7111670271652362
+{'USD': 0, 'EWZ': 399.53455994013444, 'v_USD': 15022.498844107698, 'v_EWZ': 399.53455994013444, 'buy_count': 2, 'hold_count': 913, 'sell_count': 1}
+Profit percentage: 0.5022498844107699
+{'USD': 0, 'EWH': 514.5039538242489, 'v_USD': 11355.102103887028, 'v_EWH': 514.5039538242489, 'buy_count': 3, 'hold_count': 922, 'sell_count': 2}
+Profit percentage: 0.1355102103887027
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 955, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 177.79262792787392, 'v_USD': 14150.514605683436, 'v_XLE': 177.79262792787392, 'buy_count': 6, 'hold_count': 846, 'sell_count': 5}
+Profit percentage: 0.41505146056834374
+Model profit percentage: 0.42038814723042184
+
+Getting the ConvMixer model...
+MODEL27
+{'USD': 13511.340854150058, 'XLF': 0, 'v_USD': 13511.340854150058, 'v_XLF': 362.13723818896386, 'buy_count': 8, 'hold_count': 934, 'sell_count': 8}
+Profit percentage: 0.3511340854150058
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 18193.71878130565, 'QQQ': 0, 'v_USD': 18193.71878130565, 'v_QQQ': 52.52986418561803, 'buy_count': 2, 'hold_count': 948, 'sell_count': 2}
+Profit percentage: 0.8193718781305652
+{'USD': 10640.724714089669, 'SPY': 0, 'v_USD': 10640.724714089669, 'v_SPY': 24.002898136045868, 'buy_count': 7, 'hold_count': 939, 'sell_count': 7}
+Profit percentage: 0.06407247140896688
+{'USD': 0, 'XLP': 214.96998609180602, 'v_USD': 16952.53323440709, 'v_XLP': 214.96998609180602, 'buy_count': 5, 'hold_count': 953, 'sell_count': 4}
+Profit percentage: 0.6952533234407088
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 913, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 518.2803921123964, 'v_USD': 11438.448095753965, 'v_EWH': 518.2803921123964, 'buy_count': 5, 'hold_count': 911, 'sell_count': 4}
+Profit percentage: 0.14384480957539658
+{'USD': 14112.207257967824, 'XLY': 0, 'v_USD': 14112.207257967824, 'v_XLY': 77.99816409243044, 'buy_count': 1, 'hold_count': 954, 'sell_count': 1}
+Profit percentage: 0.41122072579678237
+{'USD': 0, 'XLE': 176.63913591207395, 'v_USD': 14058.708180370131, 'v_XLE': 176.63913591207395, 'buy_count': 7, 'hold_count': 846, 'sell_count': 6}
+Profit percentage: 0.4058708180370132
+Model profit percentage: 0.41435875933110733
+
+Getting the ConvMixer model...
+MODEL80
+{'USD': 10090.315779860286, 'XLF': 0, 'v_USD': 10090.315779860286, 'v_XLF': 270.4453339174521, 'buy_count': 4, 'hold_count': 975, 'sell_count': 4}
+Profit percentage: 0.009031577986028605
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 12426.11493267246, 'SPY': 0, 'v_USD': 12426.11493267246, 'v_SPY': 28.0303061088309, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.24261149326724607
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 311.08124857250766, 'v_USD': 11696.654471653972, 'v_EWZ': 311.08124857250766, 'buy_count': 4, 'hold_count': 941, 'sell_count': 3}
+Profit percentage: 0.1696654471653971
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 999, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 14488.11762633606, 'XLY': 0, 'v_USD': 14488.11762633606, 'v_XLY': 80.07582055396499, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.4488117626336059
+{'USD': 0, 'XLE': 231.37422912626235, 'v_USD': 18415.07404884149, 'v_XLE': 231.37422912626235, 'buy_count': 2, 'hold_count': 885, 'sell_count': 1}
+Profit percentage: 0.8415074048841489
+Model profit percentage: 0.4130545885478666
+
+Getting the ConvMixer model...
+MODEL53
+{'USD': 10542.185627742767, 'XLF': 0, 'v_USD': 10542.185627742767, 'v_XLF': 282.55655962772397, 'buy_count': 7, 'hold_count': 968, 'sell_count': 7}
+Profit percentage: 0.05421856277427661
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10823.44953368165, 'SPY': 0, 'v_USD': 10823.44953368165, 'v_SPY': 24.415081079354813, 'buy_count': 1, 'hold_count': 984, 'sell_count': 1}
+Profit percentage: 0.08234495336816505
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 980, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 214.7902032670593, 'v_USD': 17095.151491440032, 'v_XLE': 214.7902032670593, 'buy_count': 3, 'hold_count': 878, 'sell_count': 2}
+Profit percentage: 0.7095151491440033
+Model profit percentage: 0.4100486036647253
+
+Getting the ConvMixer model...
+MODEL34
+{'USD': 10979.564524334235, 'XLF': 0, 'v_USD': 10979.564524334235, 'v_XLF': 294.2793921255157, 'buy_count': 4, 'hold_count': 945, 'sell_count': 4}
+Profit percentage: 0.09795645243342355
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 985, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 18133.049413948094, 'QQQ': 0, 'v_USD': 18133.049413948094, 'v_QQQ': 52.35469638920279, 'buy_count': 2, 'hold_count': 964, 'sell_count': 2}
+Profit percentage: 0.8133049413948095
+{'USD': 12230.383747995236, 'SPY': 0, 'v_USD': 12230.383747995236, 'v_SPY': 27.58878395558563, 'buy_count': 4, 'hold_count': 962, 'sell_count': 4}
+Profit percentage: 0.2230383747995237
+{'USD': 0, 'XLP': 197.72592565436352, 'v_USD': 15592.666617785435, 'v_XLP': 197.72592565436352, 'buy_count': 1, 'hold_count': 957, 'sell_count': 0}
+Profit percentage: 0.5592666617785436
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 919, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 501.4431221677638, 'v_USD': 11066.849553214252, 'v_EWH': 501.4431221677638, 'buy_count': 3, 'hold_count': 949, 'sell_count': 2}
+Profit percentage: 0.10668495532142508
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 961, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 207.79375185307063, 'v_USD': 16538.303949022444, 'v_XLE': 207.79375185307063, 'buy_count': 2, 'hold_count': 852, 'sell_count': 1}
+Profit percentage: 0.6538303949022444
+Model profit percentage: 0.4076429848087065
+
+Getting the ConvMixer model...
+MODEL32
+{'USD': 13592.742951232103, 'XLF': 0, 'v_USD': 13592.742951232103, 'v_XLF': 364.31901503393385, 'buy_count': 8, 'hold_count': 948, 'sell_count': 8}
+Profit percentage: 0.3592742951232104
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 977, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 15752.549208643988, 'QQQ': 0, 'v_USD': 15752.549208643988, 'v_QQQ': 45.48159067719471, 'buy_count': 2, 'hold_count': 969, 'sell_count': 2}
+Profit percentage: 0.5752549208643989
+{'USD': 12324.41170399711, 'SPY': 0, 'v_USD': 12324.41170399711, 'v_SPY': 27.800888253976613, 'buy_count': 5, 'hold_count': 965, 'sell_count': 5}
+Profit percentage: 0.2324411703997109
+{'USD': 0, 'XLP': 195.7219052948872, 'v_USD': 15434.629571013975, 'v_XLP': 195.7219052948872, 'buy_count': 2, 'hold_count': 955, 'sell_count': 1}
+Profit percentage: 0.5434629571013976
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 915, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 515.4123812687742, 'v_USD': 11375.15109731047, 'v_EWH': 515.4123812687742, 'buy_count': 1, 'hold_count': 940, 'sell_count': 0}
+Profit percentage: 0.13751510973104697
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 963, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 201.71108211920586, 'v_USD': 16054.184287179549, 'v_XLE': 201.71108211920586, 'buy_count': 4, 'hold_count': 839, 'sell_count': 3}
+Profit percentage: 0.6054184287179549
+Model profit percentage: 0.40753814681839945
+
+Getting the ConvMixer model...
+MODEL67
+{'USD': 10038.357291915923, 'XLF': 0, 'v_USD': 10038.357291915923, 'v_XLF': 269.05271837116703, 'buy_count': 2, 'hold_count': 968, 'sell_count': 2}
+Profit percentage: 0.003835729191592252
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12426.11493267246, 'SPY': 0, 'v_USD': 12426.11493267246, 'v_SPY': 28.0303061088309, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.24261149326724607
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 405.3481307547089, 'v_USD': 15241.089097864893, 'v_EWZ': 405.3481307547089, 'buy_count': 6, 'hold_count': 937, 'sell_count': 5}
+Profit percentage: 0.5241089097864893
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 966, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 881, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.40532836421680046
+
+Getting the ConvMixer model...
+MODEL30
+{'USD': 13451.714970497775, 'XLF': 0, 'v_USD': 13451.714970497775, 'v_XLF': 360.53911753880044, 'buy_count': 7, 'hold_count': 930, 'sell_count': 7}
+Profit percentage: 0.34517149704977745
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 972, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 17651.404120007548, 'QQQ': 0, 'v_USD': 17651.404120007548, 'v_QQQ': 50.964064700296184, 'buy_count': 2, 'hold_count': 930, 'sell_count': 2}
+Profit percentage: 0.7651404120007548
+{'USD': 10970.502855132328, 'SPY': 0, 'v_USD': 10970.502855132328, 'v_SPY': 24.746797761271605, 'buy_count': 7, 'hold_count': 940, 'sell_count': 7}
+Profit percentage: 0.09705028551323291
+{'USD': 0, 'XLP': 215.8633731927762, 'v_USD': 17022.98574173488, 'v_XLP': 215.8633731927762, 'buy_count': 5, 'hold_count': 946, 'sell_count': 4}
+Profit percentage: 0.702298574173488
+{'USD': 0, 'EWZ': 399.53455994013444, 'v_USD': 15022.498844107698, 'v_EWZ': 399.53455994013444, 'buy_count': 2, 'hold_count': 915, 'sell_count': 1}
+Profit percentage: 0.5022498844107699
+{'USD': 0, 'EWH': 514.5039538242489, 'v_USD': 11355.102103887028, 'v_EWH': 514.5039538242489, 'buy_count': 3, 'hold_count': 912, 'sell_count': 2}
+Profit percentage: 0.1355102103887027
+{'USD': 14181.598434565001, 'XLY': 0, 'v_USD': 14181.598434565001, 'v_XLY': 78.38168909882074, 'buy_count': 1, 'hold_count': 949, 'sell_count': 1}
+Profit percentage: 0.41815984345650015
+{'USD': 0, 'XLE': 170.07930706203064, 'v_USD': 13536.611426217993, 'v_XLE': 170.07930706203064, 'buy_count': 10, 'hold_count': 841, 'sell_count': 9}
+Profit percentage: 0.35366114262179926
+Model profit percentage: 0.4042022193960654
+
+Getting the ConvMixer model...
+MODEL55
+{'USD': 10612.281765147742, 'XLF': 0, 'v_USD': 10612.281765147742, 'v_XLF': 284.4353088859632, 'buy_count': 3, 'hold_count': 968, 'sell_count': 3}
+Profit percentage: 0.06122817651477419
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10823.44953368165, 'SPY': 0, 'v_USD': 10823.44953368165, 'v_SPY': 24.415081079354813, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.08234495336816505
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 983, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 407.1009000745996, 'v_USD': 15306.99322161827, 'v_EWZ': 407.1009000745996, 'buy_count': 2, 'hold_count': 934, 'sell_count': 1}
+Profit percentage: 0.530699322161827
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 993, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 201.93570757363108, 'v_USD': 16072.06222627465, 'v_XLE': 201.93570757363108, 'buy_count': 4, 'hold_count': 871, 'sell_count': 3}
+Profit percentage: 0.6072062226274648
+Model profit percentage: 0.40071245906481945
+
+Getting the ConvMixer model...
+MODEL63
+{'USD': 10189.213036973448, 'XLF': 0, 'v_USD': 10189.213036973448, 'v_XLF': 273.0960241740319, 'buy_count': 5, 'hold_count': 973, 'sell_count': 5}
+Profit percentage: 0.018921303697344793
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10823.44953368165, 'SPY': 0, 'v_USD': 10823.44953368165, 'v_SPY': 24.415081079354813, 'buy_count': 1, 'hold_count': 986, 'sell_count': 1}
+Profit percentage: 0.08234495336816505
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 387.4125166531142, 'v_USD': 14566.710035012507, 'v_EWZ': 387.4125166531142, 'buy_count': 4, 'hold_count': 935, 'sell_count': 3}
+Profit percentage: 0.45667100350125067
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 212.20056130247377, 'v_USD': 16889.041896962222, 'v_XLE': 212.20056130247377, 'buy_count': 4, 'hold_count': 880, 'sell_count': 3}
+Profit percentage: 0.6889041896962222
+Model profit percentage: 0.3978892446794352
+
+Getting the ConvMixer model...
+MODEL33
+{'USD': 10979.564524334235, 'XLF': 0, 'v_USD': 10979.564524334235, 'v_XLF': 294.2793921255157, 'buy_count': 4, 'hold_count': 935, 'sell_count': 4}
+Profit percentage: 0.09795645243342355
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 985, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 18133.049413948094, 'QQQ': 0, 'v_USD': 18133.049413948094, 'v_QQQ': 52.35469638920279, 'buy_count': 2, 'hold_count': 950, 'sell_count': 2}
+Profit percentage: 0.8133049413948095
+{'USD': 12233.634232880415, 'SPY': 0, 'v_USD': 12233.634232880415, 'v_SPY': 27.596116262330526, 'buy_count': 6, 'hold_count': 943, 'sell_count': 6}
+Profit percentage: 0.22336342328804148
+{'USD': 13889.458483506596, 'XLP': 0, 'v_USD': 13889.458483506596, 'v_XLP': 176.12805447637032, 'buy_count': 4, 'hold_count': 950, 'sell_count': 4}
+Profit percentage: 0.3889458483506596
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 925, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 514.5039538242489, 'v_USD': 11355.102103887028, 'v_EWH': 514.5039538242489, 'buy_count': 3, 'hold_count': 937, 'sell_count': 2}
+Profit percentage: 0.1355102103887027
+{'USD': 14112.207257967824, 'XLY': 0, 'v_USD': 14112.207257967824, 'v_XLY': 77.99816409243044, 'buy_count': 1, 'hold_count': 949, 'sell_count': 1}
+Profit percentage: 0.41122072579678237
+{'USD': 0, 'XLE': 207.12427691414842, 'v_USD': 16485.02044108532, 'v_XLE': 207.12427691414842, 'buy_count': 3, 'hold_count': 857, 'sell_count': 2}
+Profit percentage: 0.6485020441085318
+Model profit percentage: 0.3952515964373865
+
+Getting the ConvMixer model...
+MODEL44
+{'USD': 10377.558014435539, 'XLF': 0, 'v_USD': 10377.558014435539, 'v_XLF': 278.1441338103109, 'buy_count': 4, 'hold_count': 952, 'sell_count': 4}
+Profit percentage: 0.03775580144355395
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 986, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 968, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12896.976834319554, 'SPY': 0, 'v_USD': 12896.976834319554, 'v_SPY': 29.092456532327397, 'buy_count': 2, 'hold_count': 968, 'sell_count': 2}
+Profit percentage: 0.28969768343195534
+{'USD': 0, 'XLP': 217.2891892997044, 'v_USD': 17135.425600797484, 'v_XLP': 217.2891892997044, 'buy_count': 2, 'hold_count': 969, 'sell_count': 1}
+Profit percentage: 0.7135425600797483
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 931, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 522.3334190367395, 'v_USD': 11527.898398737332, 'v_EWH': 522.3334190367395, 'buy_count': 2, 'hold_count': 973, 'sell_count': 1}
+Profit percentage: 0.1527898398737333
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 959, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 215.41869484862005, 'v_USD': 17145.173134114848, 'v_XLE': 215.41869484862005, 'buy_count': 4, 'hold_count': 850, 'sell_count': 3}
+Profit percentage: 0.7145173134114848
+Model profit percentage: 0.3949945548455994
+
+Getting the ConvMixer model...
+MODEL62
+{'USD': 9971.618617787028, 'XLF': 0, 'v_USD': 9971.618617787028, 'v_XLF': 267.2639574043376, 'buy_count': 6, 'hold_count': 972, 'sell_count': 6}
+Profit percentage: -0.002838138221297193
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 993, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10823.44953368165, 'SPY': 0, 'v_USD': 10823.44953368165, 'v_SPY': 24.415081079354813, 'buy_count': 1, 'hold_count': 984, 'sell_count': 1}
+Profit percentage: 0.08234495336816505
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 934, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 204.5535725826798, 'v_USD': 16280.41809275793, 'v_XLE': 204.5535725826798, 'buy_count': 4, 'hold_count': 862, 'sell_count': 3}
+Profit percentage: 0.6280418092757929
+Model profit percentage: 0.3946563769020826
+
+Getting the ConvMixer model...
+MODEL68
+{'USD': 10043.048752170778, 'XLF': 0, 'v_USD': 10043.048752170778, 'v_XLF': 269.17846106969756, 'buy_count': 4, 'hold_count': 971, 'sell_count': 4}
+Profit percentage: 0.004304875217077786
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 991, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14028.562008078094, 'QQQ': 0, 'v_USD': 14028.562008078094, 'v_QQQ': 40.50400392915049, 'buy_count': 1, 'hold_count': 993, 'sell_count': 1}
+Profit percentage: 0.4028562008078094
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 984, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 411.88599566153334, 'v_USD': 15486.912808385501, 'v_EWZ': 411.88599566153334, 'buy_count': 4, 'hold_count': 944, 'sell_count': 3}
+Profit percentage: 0.54869128083855
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 976, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 891, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.38097467829455156
+
+Getting the ConvMixer model...
+MODEL73
+{'USD': 9624.911146557795, 'XLF': 0, 'v_USD': 9624.911146557795, 'v_XLF': 257.9713425968391, 'buy_count': 6, 'hold_count': 969, 'sell_count': 6}
+Profit percentage: -0.03750888534422048
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 385.7207879282989, 'v_USD': 14503.101037540824, 'v_EWZ': 385.7207879282989, 'buy_count': 5, 'hold_count': 936, 'sell_count': 4}
+Profit percentage: 0.4503101037540824
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 207.79375185307063, 'v_USD': 16538.303949022444, 'v_XLE': 207.79375185307063, 'buy_count': 2, 'hold_count': 868, 'sell_count': 1}
+Profit percentage: 0.6538303949022444
+Model profit percentage: 0.3807572957473569
+
+Getting the ConvMixer model...
+MODEL85
+{'USD': 9922.754691538723, 'XLF': 0, 'v_USD': 9922.754691538723, 'v_XLF': 265.9542837391073, 'buy_count': 8, 'hold_count': 963, 'sell_count': 8}
+Profit percentage: -0.007724530846127675
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 981, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 15638.548078067693, 'QQQ': 0, 'v_USD': 15638.548078067693, 'v_QQQ': 45.152440601931765, 'buy_count': 1, 'hold_count': 993, 'sell_count': 1}
+Profit percentage: 0.5638548078067693
+{'USD': 0, 'SPY': 28.280510350482288, 'v_USD': 12537.032974428088, 'v_SPY': 28.280510350482288, 'buy_count': 2, 'hold_count': 971, 'sell_count': 1}
+Profit percentage: 0.25370329744280884
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 355.22238224635987, 'v_USD': 13356.36103043679, 'v_EWZ': 355.22238224635987, 'buy_count': 7, 'hold_count': 936, 'sell_count': 6}
+Profit percentage: 0.33563610304367897
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13944.576158594047, 'XLY': 0, 'v_USD': 13944.576158594047, 'v_XLY': 77.07166707060077, 'buy_count': 1, 'hold_count': 966, 'sell_count': 1}
+Profit percentage: 0.39445761585940464
+{'USD': 0, 'XLE': 230.93638452254476, 'v_USD': 18380.22599843504, 'v_XLE': 230.93638452254476, 'buy_count': 2, 'hold_count': 852, 'sell_count': 1}
+Profit percentage: 0.8380225998435038
+Model profit percentage: 0.3805601358076349
+
+Getting the ConvMixer model...
+MODEL72
+{'USD': 9624.911146557795, 'XLF': 0, 'v_USD': 9624.911146557795, 'v_XLF': 257.9713425968391, 'buy_count': 6, 'hold_count': 968, 'sell_count': 6}
+Profit percentage: -0.03750888534422048
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 980, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 985, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 377.497912606572, 'v_USD': 14193.920937991006, 'v_EWZ': 377.497912606572, 'buy_count': 4, 'hold_count': 939, 'sell_count': 3}
+Profit percentage: 0.4193920937991007
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 975, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 206.62983146658172, 'v_USD': 16445.667529724196, 'v_XLE': 206.62983146658172, 'buy_count': 3, 'hold_count': 876, 'sell_count': 2}
+Profit percentage: 0.6445667529724197
+Model profit percentage: 0.37526730165562394
+
+Getting the ConvMixer model...
+MODEL61
+{'USD': 10031.974293149871, 'XLF': 0, 'v_USD': 10031.974293149871, 'v_XLF': 268.8816382711641, 'buy_count': 3, 'hold_count': 974, 'sell_count': 3}
+Profit percentage: 0.0031974293149872324
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 54.897331906811644, 'v_USD': 19013.691240990935, 'v_QQQ': 54.897331906811644, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.9013691240990935
+{'USD': 10877.184805924739, 'SPY': 0, 'v_USD': 10877.184805924739, 'v_SPY': 24.536294840693426, 'buy_count': 1, 'hold_count': 987, 'sell_count': 1}
+Profit percentage: 0.08771848059247378
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 983, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 360.34008683135966, 'v_USD': 13548.786715023785, 'v_EWZ': 360.34008683135966, 'buy_count': 5, 'hold_count': 936, 'sell_count': 4}
+Profit percentage: 0.3548786715023786
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 986, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 201.71108211920586, 'v_USD': 16054.184287179549, 'v_XLE': 201.71108211920586, 'buy_count': 4, 'hold_count': 878, 'sell_count': 3}
+Profit percentage: 0.6054184287179549
+Model profit percentage: 0.3751273852265487
+
+Getting the ConvMixer model...
+MODEL69
+{'USD': 10079.142440991393, 'XLF': 0, 'v_USD': 10079.142440991393, 'v_XLF': 270.1458608952696, 'buy_count': 3, 'hold_count': 967, 'sell_count': 3}
+Profit percentage: 0.007914244099139323
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12091.216438520782, 'SPY': 0, 'v_USD': 12091.216438520782, 'v_SPY': 27.274856206965296, 'buy_count': 1, 'hold_count': 970, 'sell_count': 1}
+Profit percentage: 0.2091216438520782
+{'USD': 12443.600685698986, 'XLP': 0, 'v_USD': 12443.600685698986, 'v_XLP': 157.7935656782835, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.24436006856989856
+{'USD': 0, 'EWZ': 422.23834574542406, 'v_USD': 15876.161155743359, 'v_EWZ': 422.23834574542406, 'buy_count': 10, 'hold_count': 940, 'sell_count': 9}
+Profit percentage: 0.5876161155743358
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13637.429587874542, 'XLY': 0, 'v_USD': 13637.429587874542, 'v_XLY': 75.37406809224952, 'buy_count': 1, 'hold_count': 953, 'sell_count': 1}
+Profit percentage: 0.3637429587874541
+{'USD': 0, 'XLE': 254.21952651228486, 'v_USD': 20233.33118413304, 'v_XLE': 254.21952651228486, 'buy_count': 2, 'hold_count': 878, 'sell_count': 1}
+Profit percentage: 1.023333118413304
+Model profit percentage: 0.37361471896815046
+
+Getting the ConvMixer model...
+MODEL58
+{'USD': 11899.459215761817, 'XLF': 0, 'v_USD': 11899.459215761817, 'v_XLF': 318.93483724930235, 'buy_count': 3, 'hold_count': 969, 'sell_count': 3}
+Profit percentage: 0.18994592157618162
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14542.949739991542, 'QQQ': 0, 'v_USD': 14542.949739991542, 'v_QQQ': 41.98917131141902, 'buy_count': 1, 'hold_count': 992, 'sell_count': 1}
+Profit percentage: 0.4542949739991542
+{'USD': 12582.079570239783, 'SPY': 0, 'v_USD': 12582.079570239783, 'v_SPY': 28.382124561891406, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.25820795702397836
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 985, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 360.34008683135966, 'v_USD': 13548.786715023785, 'v_EWZ': 360.34008683135966, 'buy_count': 5, 'hold_count': 934, 'sell_count': 4}
+Profit percentage: 0.3548786715023786
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 208.18771910566795, 'v_USD': 16569.659801213915, 'v_XLE': 208.18771910566795, 'buy_count': 2, 'hold_count': 867, 'sell_count': 1}
+Profit percentage: 0.6569659801213914
+Model profit percentage: 0.37189845910843605
+
+Getting the ConvMixer model...
+MODEL56
+{'USD': 11637.137172968525, 'XLF': 0, 'v_USD': 11637.137172968525, 'v_XLF': 311.90395992049366, 'buy_count': 5, 'hold_count': 968, 'sell_count': 5}
+Profit percentage: 0.16371371729685258
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 985, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12582.079570239783, 'SPY': 0, 'v_USD': 12582.079570239783, 'v_SPY': 28.382124561891406, 'buy_count': 1, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.25820795702397836
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 386.91702915835594, 'v_USD': 14548.07970596565, 'v_EWZ': 386.91702915835594, 'buy_count': 7, 'hold_count': 934, 'sell_count': 6}
+Profit percentage: 0.4548079705965651
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 974, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 207.0216925082083, 'v_USD': 16476.855748592217, 'v_XLE': 207.0216925082083, 'buy_count': 3, 'hold_count': 869, 'sell_count': 2}
+Profit percentage: 0.6476855748592218
+Model profit percentage: 0.3708049922622448
+
+Getting the ConvMixer model...
+MODEL29
+{'USD': 10334.812031349906, 'XLF': 0, 'v_USD': 10334.812031349906, 'v_XLF': 276.9984361015932, 'buy_count': 6, 'hold_count': 945, 'sell_count': 6}
+Profit percentage: 0.03348120313499048
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 15805.255556358596, 'QQQ': 0, 'v_USD': 15805.255556358596, 'v_QQQ': 45.63376722342193, 'buy_count': 2, 'hold_count': 976, 'sell_count': 2}
+Profit percentage: 0.5805255556358595
+{'USD': 13861.722900441775, 'SPY': 0, 'v_USD': 13861.722900441775, 'v_SPY': 31.268690029057208, 'buy_count': 5, 'hold_count': 966, 'sell_count': 5}
+Profit percentage: 0.3861722900441775
+{'USD': 0, 'XLP': 194.91561326763787, 'v_USD': 15371.04538125297, 'v_XLP': 194.91561326763787, 'buy_count': 4, 'hold_count': 963, 'sell_count': 3}
+Profit percentage: 0.537104538125297
+{'USD': 0, 'EWZ': 399.53455994013444, 'v_USD': 15022.498844107698, 'v_EWZ': 399.53455994013444, 'buy_count': 2, 'hold_count': 915, 'sell_count': 1}
+Profit percentage: 0.5022498844107699
+{'USD': 0, 'EWH': 534.240954534632, 'v_USD': 11790.697703541928, 'v_EWH': 534.240954534632, 'buy_count': 4, 'hold_count': 942, 'sell_count': 3}
+Profit percentage: 0.1790697703541928
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 966, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 177.79262792787392, 'v_USD': 14150.514605683436, 'v_XLE': 177.79262792787392, 'buy_count': 6, 'hold_count': 831, 'sell_count': 5}
+Profit percentage: 0.41505146056834374
+Model profit percentage: 0.3698562034351742
+
+Getting the ConvMixer model...
+MODEL60
+{'USD': 12183.304387452, 'XLF': 0, 'v_USD': 12183.304387452, 'v_XLF': 326.54258748362366, 'buy_count': 5, 'hold_count': 966, 'sell_count': 5}
+Profit percentage: 0.21833043874520008
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 986, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12444.17252686286, 'SPY': 0, 'v_USD': 12444.17252686286, 'v_SPY': 28.071039668393837, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.244417252686286
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 982, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 387.4125166531142, 'v_USD': 14566.710035012507, 'v_EWZ': 387.4125166531142, 'buy_count': 4, 'hold_count': 935, 'sell_count': 3}
+Profit percentage: 0.45667100350125067
+{'USD': 0, 'EWH': 515.4123812687742, 'v_USD': 11375.15109731047, 'v_EWH': 515.4123812687742, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.13751510973104697
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 970, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 201.1020915525528, 'v_USD': 16005.714730209822, 'v_XLE': 201.1020915525528, 'buy_count': 4, 'hold_count': 864, 'sell_count': 3}
+Profit percentage: 0.6005714730209821
+Model profit percentage: 0.36962757439011235
+
+Getting the ConvMixer model...
+MODEL37
+{'USD': 10377.558014435539, 'XLF': 0, 'v_USD': 10377.558014435539, 'v_XLF': 278.1441338103109, 'buy_count': 4, 'hold_count': 960, 'sell_count': 4}
+Profit percentage: 0.03775580144355395
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 990, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12961.005614205367, 'SPY': 0, 'v_USD': 12961.005614205367, 'v_SPY': 29.236889954173137, 'buy_count': 2, 'hold_count': 982, 'sell_count': 2}
+Profit percentage: 0.29610056142053676
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 981, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 926, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 533.1146698338279, 'v_USD': 11765.840600538895, 'v_EWH': 533.1146698338279, 'buy_count': 2, 'hold_count': 983, 'sell_count': 1}
+Profit percentage: 0.1765840600538895
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 201.26869474121168, 'v_USD': 16018.974677385064, 'v_XLE': 201.26869474121168, 'buy_count': 4, 'hold_count': 853, 'sell_count': 3}
+Profit percentage: 0.6018974677385063
+Model profit percentage: 0.36800363254338825
+
+Getting the ConvMixer model...
+MODEL65
+{'USD': 9689.609643841755, 'XLF': 0, 'v_USD': 9689.609643841755, 'v_XLF': 259.70542179551416, 'buy_count': 2, 'hold_count': 967, 'sell_count': 2}
+Profit percentage: -0.03103903561582444
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 991, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12426.11493267246, 'SPY': 0, 'v_USD': 12426.11493267246, 'v_SPY': 28.0303061088309, 'buy_count': 1, 'hold_count': 977, 'sell_count': 1}
+Profit percentage: 0.24261149326724607
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 984, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 422.23834574542406, 'v_USD': 15876.161155743359, 'v_EWZ': 422.23834574542406, 'buy_count': 10, 'hold_count': 936, 'sell_count': 9}
+Profit percentage: 0.5876161155743358
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 968, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 208.18771910566795, 'v_USD': 16569.659801213915, 'v_XLE': 208.18771910566795, 'buy_count': 2, 'hold_count': 877, 'sell_count': 1}
+Profit percentage: 0.6569659801213914
+Model profit percentage: 0.36677692063321465
+
+Getting the ConvMixer model...
+MODEL38
+{'USD': 10581.51135391678, 'XLF': 0, 'v_USD': 10581.51135391678, 'v_XLF': 283.6105860208231, 'buy_count': 5, 'hold_count': 956, 'sell_count': 5}
+Profit percentage: 0.05815113539167793
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 975, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12743.683975704942, 'SPY': 0, 'v_USD': 12743.683975704942, 'v_SPY': 28.746664965570886, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.27436839757049425
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 971, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 928, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 511.9099401562138, 'v_USD': 11297.852223025122, 'v_EWH': 511.9099401562138, 'buy_count': 2, 'hold_count': 969, 'sell_count': 1}
+Profit percentage: 0.12978522230251222
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 972, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 204.12123814040217, 'v_USD': 16246.008596080308, 'v_XLE': 204.12123814040217, 'buy_count': 4, 'hold_count': 855, 'sell_count': 3}
+Profit percentage: 0.6246008596080308
+Model profit percentage: 0.3651778241229692
+
+Getting the ConvMixer model...
+MODEL39
+{'USD': 10491.005987230203, 'XLF': 0, 'v_USD': 10491.005987230203, 'v_XLF': 281.1848191123457, 'buy_count': 6, 'hold_count': 955, 'sell_count': 6}
+Profit percentage: 0.049100598723020195
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 987, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 12680.728705565238, 'SPY': 0, 'v_USD': 12680.728705565238, 'v_SPY': 28.60465312174509, 'buy_count': 1, 'hold_count': 976, 'sell_count': 1}
+Profit percentage: 0.26807287055652385
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 968, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 927, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 511.9099401562138, 'v_USD': 11297.852223025122, 'v_EWH': 511.9099401562138, 'buy_count': 2, 'hold_count': 968, 'sell_count': 1}
+Profit percentage: 0.12978522230251222
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 977, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 205.99595895011652, 'v_USD': 16395.21761846004, 'v_XLE': 205.99595895011652, 'buy_count': 5, 'hold_count': 846, 'sell_count': 4}
+Profit percentage: 0.6395217618460038
+Model profit percentage: 0.36513058396245196
+
+Getting the ConvMixer model...
+MODEL35
+{'USD': 10650.177946118616, 'XLF': 0, 'v_USD': 10650.177946118616, 'v_XLF': 285.45101994401756, 'buy_count': 4, 'hold_count': 947, 'sell_count': 4}
+Profit percentage: 0.06501779461186152
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 990, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 13591.579715193286, 'QQQ': 0, 'v_USD': 13591.579715193286, 'v_QQQ': 39.24232561188722, 'buy_count': 1, 'hold_count': 971, 'sell_count': 1}
+Profit percentage: 0.3591579715193285
+{'USD': 12761.325890190055, 'SPY': 0, 'v_USD': 12761.325890190055, 'v_SPY': 28.78646085238208, 'buy_count': 4, 'hold_count': 967, 'sell_count': 4}
+Profit percentage: 0.2761325890190056
+{'USD': 0, 'XLP': 195.7219052948872, 'v_USD': 15434.629571013975, 'v_XLP': 195.7219052948872, 'buy_count': 2, 'hold_count': 968, 'sell_count': 1}
+Profit percentage: 0.5434629571013976
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 927, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 500.5260157465452, 'v_USD': 11046.609014777836, 'v_EWH': 500.5260157465452, 'buy_count': 3, 'hold_count': 957, 'sell_count': 2}
+Profit percentage: 0.10466090147778351
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 966, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 215.41869484862005, 'v_USD': 17145.173134114848, 'v_XLE': 215.41869484862005, 'buy_count': 4, 'hold_count': 856, 'sell_count': 3}
+Profit percentage: 0.7145173134114848
+Model profit percentage: 0.3641838455321389
+
+Getting the ConvMixer model...
+MODEL96
+{'USD': 9574.355447740916, 'XLF': 0, 'v_USD': 9574.355447740916, 'v_XLF': 256.6163252568218, 'buy_count': 7, 'hold_count': 973, 'sell_count': 7}
+Profit percentage: -0.04256445522590835
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 58.57645095935057, 'v_USD': 20287.954147293352, 'v_QQQ': 58.57645095935057, 'buy_count': 1, 'hold_count': 998, 'sell_count': 0}
+Profit percentage: 1.0287954147293354
+{'USD': 12385.412089270834, 'SPY': 0, 'v_USD': 12385.412089270834, 'v_SPY': 27.93849035095089, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.23854120892708353
+{'USD': 11034.81538044681, 'XLP': 0, 'v_USD': 11034.81538044681, 'v_XLP': 139.9291820319657, 'buy_count': 1, 'hold_count': 988, 'sell_count': 1}
+Profit percentage: 0.10348153804468097
+{'USD': 0, 'EWZ': 258.3270563148205, 'v_USD': 9713.096923261444, 'v_EWZ': 258.3270563148205, 'buy_count': 7, 'hold_count': 920, 'sell_count': 6}
+Profit percentage: -0.02869030767385561
+{'USD': 12736.13812699385, 'EWH': 0, 'v_USD': 12736.13812699385, 'v_EWH': 577.0792162711577, 'buy_count': 1, 'hold_count': 998, 'sell_count': 1}
+Profit percentage: 0.273613812699385
+{'USD': 14679.064593448787, 'XLY': 0, 'v_USD': 14679.064593448787, 'v_XLY': 81.13118436782915, 'buy_count': 1, 'hold_count': 975, 'sell_count': 1}
+Profit percentage: 0.46790645934487873
+{'USD': 0, 'XLE': 240.83974220887387, 'v_USD': 19168.434200422795, 'v_XLE': 240.83974220887387, 'buy_count': 4, 'hold_count': 845, 'sell_count': 3}
+Profit percentage: 0.9168434200422795
+Model profit percentage: 0.3640815398953283
+
+Getting the ConvMixer model...
+MODEL98
+{'USD': 9574.355447740916, 'XLF': 0, 'v_USD': 9574.355447740916, 'v_XLF': 256.6163252568218, 'buy_count': 7, 'hold_count': 969, 'sell_count': 7}
+Profit percentage: -0.04256445522590835
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 983, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 996, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 12385.412089270834, 'SPY': 0, 'v_USD': 12385.412089270834, 'v_SPY': 27.93849035095089, 'buy_count': 1, 'hold_count': 978, 'sell_count': 1}
+Profit percentage: 0.23854120892708353
+{'USD': 11034.81538044681, 'XLP': 0, 'v_USD': 11034.81538044681, 'v_XLP': 139.9291820319657, 'buy_count': 1, 'hold_count': 988, 'sell_count': 1}
+Profit percentage: 0.10348153804468097
+{'USD': 0, 'EWZ': 272.6837185007004, 'v_USD': 10252.907399544001, 'v_EWZ': 272.6837185007004, 'buy_count': 7, 'hold_count': 928, 'sell_count': 6}
+Profit percentage: 0.025290739954400232
+{'USD': 12725.483647915442, 'EWH': 0, 'v_USD': 12725.483647915442, 'v_EWH': 576.5964578105445, 'buy_count': 1, 'hold_count': 996, 'sell_count': 1}
+Profit percentage: 0.2725483647915441
+{'USD': 14679.064593448787, 'XLY': 0, 'v_USD': 14679.064593448787, 'v_XLY': 81.13118436782915, 'buy_count': 1, 'hold_count': 970, 'sell_count': 1}
+Profit percentage: 0.46790645934487873
+{'USD': 0, 'XLE': 243.94827771344023, 'v_USD': 19415.842529847432, 'v_XLE': 243.94827771344023, 'buy_count': 5, 'hold_count': 844, 'sell_count': 4}
+Profit percentage: 0.9415842529847431
+Model profit percentage: 0.3638789134117658
+
+Getting the ConvMixer model...
+MODEL81
+{'USD': 9675.048301109824, 'XLF': 0, 'v_USD': 9675.048301109824, 'v_XLF': 259.3151419189137, 'buy_count': 5, 'hold_count': 971, 'sell_count': 5}
+Profit percentage: -0.03249516988901757
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 992, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 0, 'QQQ': 56.281660440675466, 'v_USD': 19493.15343714394, 'v_QQQ': 56.281660440675466, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.9493153437143942
+{'USD': 10401.190168032896, 'SPY': 0, 'v_USD': 10401.190168032896, 'v_SPY': 23.462566207201622, 'buy_count': 1, 'hold_count': 979, 'sell_count': 1}
+Profit percentage: 0.040119016803289664
+{'USD': 12453.44594728596, 'XLP': 0, 'v_USD': 12453.44594728596, 'v_XLP': 157.9184104856735, 'buy_count': 1, 'hold_count': 986, 'sell_count': 1}
+Profit percentage: 0.24534459472859593
+{'USD': 0, 'EWZ': 411.26338647586863, 'v_USD': 15463.502703954535, 'v_EWZ': 411.26338647586863, 'buy_count': 6, 'hold_count': 940, 'sell_count': 5}
+Profit percentage: 0.5463502703954535
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 997, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13637.429587874542, 'XLY': 0, 'v_USD': 13637.429587874542, 'v_XLY': 75.37406809224952, 'buy_count': 1, 'hold_count': 973, 'sell_count': 1}
+Profit percentage: 0.3637429587874541
+{'USD': 0, 'XLE': 208.18771910566795, 'v_USD': 16569.659801213915, 'v_XLE': 208.18771910566795, 'buy_count': 2, 'hold_count': 876, 'sell_count': 1}
+Profit percentage: 0.6569659801213914
+Model profit percentage: 0.3626494003730195
+
+Getting the ConvMixer model...
+MODEL41
+{'USD': 10377.558014435539, 'XLF': 0, 'v_USD': 10377.558014435539, 'v_XLF': 278.1441338103109, 'buy_count': 4, 'hold_count': 956, 'sell_count': 4}
+Profit percentage: 0.03775580144355395
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 988, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 11149.416306521898, 'SPY': 0, 'v_USD': 11149.416306521898, 'v_SPY': 25.150383180898697, 'buy_count': 2, 'hold_count': 979, 'sell_count': 2}
+Profit percentage: 0.11494163065218976
+{'USD': 0, 'XLP': 196.90823632072664, 'v_USD': 15528.183636435753, 'v_XLP': 196.90823632072664, 'buy_count': 1, 'hold_count': 971, 'sell_count': 0}
+Profit percentage: 0.5528183636435753
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 929, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 527.3444075756881, 'v_USD': 11638.490914262695, 'v_EWH': 527.3444075756881, 'buy_count': 2, 'hold_count': 971, 'sell_count': 1}
+Profit percentage: 0.16384909142626958
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 976, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 219.06162861593253, 'v_USD': 17435.114219314426, 'v_XLE': 219.06162861593253, 'buy_count': 4, 'hold_count': 853, 'sell_count': 3}
+Profit percentage: 0.7435114219314427
+Model profit percentage: 0.36219474974305155
+
+Getting the ConvMixer model...
+MODEL70
+{'USD': 9835.014975829692, 'XLF': 0, 'v_USD': 9835.014975829692, 'v_XLF': 263.60264309371615, 'buy_count': 5, 'hold_count': 968, 'sell_count': 5}
+Profit percentage: -0.01649850241703077
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14999.197651252525, 'QQQ': 0, 'v_USD': 14999.197651252525, 'v_QQQ': 43.30647433789745, 'buy_count': 1, 'hold_count': 992, 'sell_count': 1}
+Profit percentage: 0.4999197651252525
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 980, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 377.497912606572, 'v_USD': 14193.920937991006, 'v_EWZ': 377.497912606572, 'buy_count': 4, 'hold_count': 939, 'sell_count': 3}
+Profit percentage: 0.4193920937991007
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 995, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 972, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 230.93638452254476, 'v_USD': 18380.22599843504, 'v_XLE': 230.93638452254476, 'buy_count': 2, 'hold_count': 878, 'sell_count': 1}
+Profit percentage: 0.8380225998435038
+Model profit percentage: 0.3590732113815595
+
+Getting the ConvMixer model...
+MODEL24
+{'USD': 13198.308590025328, 'XLF': 0, 'v_USD': 13198.308590025328, 'v_XLF': 353.7472019358744, 'buy_count': 14, 'hold_count': 931, 'sell_count': 14}
+Profit percentage: 0.3198308590025327
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 987, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14706.602098832012, 'QQQ': 0, 'v_USD': 14706.602098832012, 'v_QQQ': 42.46167703094125, 'buy_count': 4, 'hold_count': 941, 'sell_count': 4}
+Profit percentage: 0.47066020988320134
+{'USD': 11686.330745799221, 'SPY': 0, 'v_USD': 11686.330745799221, 'v_SPY': 26.361532133627552, 'buy_count': 11, 'hold_count': 931, 'sell_count': 11}
+Profit percentage: 0.16863307457992205
+{'USD': 0, 'XLP': 216.99192997161984, 'v_USD': 17111.983730003303, 'v_XLP': 216.99192997161984, 'buy_count': 6, 'hold_count': 946, 'sell_count': 5}
+Profit percentage: 0.7111983730003304
+{'USD': 0, 'EWZ': 405.17601843703375, 'v_USD': 15234.617674982928, 'v_EWZ': 405.17601843703375, 'buy_count': 6, 'hold_count': 913, 'sell_count': 5}
+Profit percentage: 0.5234617674982929
+{'USD': 0, 'EWH': 514.5039538242489, 'v_USD': 11355.102103887028, 'v_EWH': 514.5039538242489, 'buy_count': 3, 'hold_count': 899, 'sell_count': 2}
+Profit percentage: 0.1355102103887027
+{'USD': 13655.750472910633, 'XLY': 0, 'v_USD': 13655.750472910633, 'v_XLY': 75.47532761680452, 'buy_count': 1, 'hold_count': 948, 'sell_count': 1}
+Profit percentage: 0.36557504729106327
+{'USD': 0, 'XLE': 151.5217190990367, 'v_USD': 12059.613068203222, 'v_XLE': 151.5217190990367, 'buy_count': 14, 'hold_count': 817, 'sell_count': 13}
+Profit percentage: 0.2059613068203221
+Model profit percentage: 0.35771210815710336
+
+Getting the ConvMixer model...
+MODEL59
+{'USD': 11948.177481188592, 'XLF': 0, 'v_USD': 11948.177481188592, 'v_XLF': 320.24060684548493, 'buy_count': 4, 'hold_count': 968, 'sell_count': 4}
+Profit percentage: 0.1948177481188591
+{'USD': 0, 'XLU': 173.38304694769968, 'v_USD': 13185.781249495629, 'v_XLU': 173.38304694769968, 'buy_count': 1, 'hold_count': 989, 'sell_count': 0}
+Profit percentage: 0.31857812494956295
+{'USD': 14542.949739991542, 'QQQ': 0, 'v_USD': 14542.949739991542, 'v_QQQ': 41.98917131141902, 'buy_count': 1, 'hold_count': 990, 'sell_count': 1}
+Profit percentage: 0.4542949739991542
+{'USD': 10689.2827473268, 'SPY': 0, 'v_USD': 10689.2827473268, 'v_SPY': 24.112433299936942, 'buy_count': 1, 'hold_count': 982, 'sell_count': 1}
+Profit percentage: 0.06892827473268004
+{'USD': 0, 'XLP': 198.07844870588585, 'v_USD': 15620.46658584365, 'v_XLP': 198.07844870588585, 'buy_count': 1, 'hold_count': 985, 'sell_count': 0}
+Profit percentage: 0.5620466585843649
+{'USD': 0, 'EWZ': 387.4125166531142, 'v_USD': 14566.710035012507, 'v_EWZ': 387.4125166531142, 'buy_count': 4, 'hold_count': 934, 'sell_count': 3}
+Profit percentage: 0.45667100350125067
+{'USD': 0, 'EWH': 532.7117611158183, 'v_USD': 11756.948405255382, 'v_EWH': 532.7117611158183, 'buy_count': 1, 'hold_count': 994, 'sell_count': 0}
+Profit percentage: 0.17569484052553808
+{'USD': 13335.670255228659, 'XLY': 0, 'v_USD': 13335.670255228659, 'v_XLY': 73.70624437666123, 'buy_count': 1, 'hold_count': 974, 'sell_count': 1}
+Profit percentage: 0.333567025522866
+{'USD': 0, 'XLE': 207.60467215269952, 'v_USD': 16523.25509636234, 'v_XLE': 207.60467215269952, 'buy_count': 4, 'hold_count': 862, 'sell_count': 3}
+Profit percentage: 0.6523255096362339
+Model profit percentage: 0.3574360177300566
+
+Getting the ConvMixer model...
+MODEL40
+{'USD': 10377.558014435539, 'XLF': 0, 'v_USD': 10377.558014435539, 'v_XLF': 278.1441338103109, 'buy_count': 4, 'hold_count': 956, 'sell_count': 4}
+Profit percentage: 0.03775580144355395
+{'USD': 0, 'XLU': 173.41311180126155, 'v_USD': 13188.067681700759, 'v_XLU': 173.41311180126155, 'buy_count': 1, 'hold_count': 988, 'sell_count': 0}
+Profit percentage: 0.3188067681700759
+{'USD': 14321.713559420436, 'QQQ': 0, 'v_USD': 14321.713559420436, 'v_QQQ': 41.35040654551056, 'buy_count': 1, 'hold_count': 984, 'sell_count': 1}
+Profit percentage: 0.4321713559420435
+{'USD': 10997.163050316105, 'SPY': 0, 'v_USD': 10997.163050316105, 'v_SPY': 24.806936705420394, 'buy_count': 2, 'hold_count': 976, 'sell_count': 2}
+Profit percentage: 0.09971630503161055
+{'USD': 0, 'XLP': 195.7219052948872, 'v_USD': 15434.629571013975, 'v_XLP': 195.7219052948872, 'buy_count': 2, 'hold_count': 971, 'sell_count': 1}
+Profit percentage: 0.5434629571013976
+{'USD': 0, 'EWZ': 404.1633020414567, 'v_USD': 15196.539540054515, 'v_EWZ': 404.1633020414567, 'buy_count': 1, 'hold_count': 928, 'sell_count': 0}
+Profit percentage: 0.5196539540054514
+{'USD': 0, 'EWH': 511.9099401562138, 'v_USD': 11297.852223025122, 'v_EWH': 511.9099401562138, 'buy_count': 2, 'hold_count': 969, 'sell_count': 1}
+Profit percentage: 0.12978522230251222
+{'USD': 13762.443604728613, 'XLY': 0, 'v_USD': 13762.443604728613, 'v_XLY': 76.0650205153676, 'buy_count': 1, 'hold_count': 975, 'sell_count': 1}
+Profit percentage: 0.37624436047286136
+{'USD': 0, 'XLE': 219.06162861593253, 'v_USD': 17435.114219314426, 'v_XLE': 219.06162861593253, 'buy_count': 4, 'hold_count': 853, 'sell_count': 3}
+Profit percentage: 0.7435114219314427
+Model profit percentage: 0.35567868293343874

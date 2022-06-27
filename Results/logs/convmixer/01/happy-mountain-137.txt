@@ -1,0 +1,312 @@
+PS C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN> C:/ProgramData/Anaconda3/envs/tf/python.exe c:/Users/Tuna/Desktop/2022-spring/CS402/SPDPvCNN/training.py
+wandb: Currently logged in as: kuantuna (spdpvcnn). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.12.17 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.16
+wandb: Run data is saved locally in C:\Users\Tuna\Desktop\2022-spring\CS402\SPDPvCNN\wandb\run-20220526_231107-flkignhu
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run happy-mountain-137
+wandb:  View project at https://wandb.ai/spdpvcnn/convmixer
+wandb:  View run at https://wandb.ai/spdpvcnn/convmixer/runs/flkignhu
+Training data samples: 32465
+Validation data samples: 3607
+Test data samples: 9018
+2022-05-26 23:11:12.424421: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-05-26 23:11:12.855725: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3495 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+2022-05-26 23:11:12.857592: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-05-26 23:13:00.495558: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Getting the ConvMixer model...
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+2022-05-26 23:13:43.597046: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+2022-05-26 23:13:43.878059: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 1/500
+2022-05-26 23:13:46.175938: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-05-26 23:13:48.158369: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+2022-05-26 23:13:52.619924: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2022-05-26 23:13:53.839448: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 561.02MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-05-26 23:13:53.906359: W tensorflow/core/common_runtime/bfc_allocator.cc:272] Allocator (GPU_0_bfc) ran out of memory trying to allocate 676.06MiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+   6/1015 [..............................] - ETA: 3:03 - loss: 1.0522 - accuracy: 0.5469WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0478s vs `on_train_batch_end` time: 0.1118s). Check your callbacks.
+1015/1015 [==============================] - 200s 188ms/step - loss: 0.8552 - accuracy: 0.6479 - val_loss: 0.8562 - val_accuracy: 0.6418
+[[ 578 1219    0]
+ [1380 4245    0]
+ [ 488 1108    0]]
+f1 score: 0.4884674995669774
+282/282 [==============================] - 11s 37ms/step - loss: 1.1051 - accuracy: 0.5348
+buy&sell test accuracy_t: 578 / 3393 = 0.1704
+buy&sell test accuracy_o: 578 / 2446 = 0.2363
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+2022-05-26 23:17:25.647839: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 1165883080 exceeds 10% of free system memory.
+Epoch 2/500
+1015/1015 [==============================] - 191s 188ms/step - loss: 0.8388 - accuracy: 0.6535 - val_loss: 0.8527 - val_accuracy: 0.6424
+[[ 253 1544    0]
+ [ 194 5431    0]
+ [ 203 1393    0]]
+f1 score: 0.525390345684573
+282/282 [==============================] - 11s 37ms/step - loss: 0.9017 - accuracy: 0.6303
+buy&sell test accuracy_t: 253 / 3393 = 0.0746
+buy&sell test accuracy_o: 253 / 650 = 0.3892
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 3/500
+1015/1015 [==============================] - 190s 188ms/step - loss: 0.8367 - accuracy: 0.6537 - val_loss: 0.8384 - val_accuracy: 0.6496
+[[ 267 1530    0]
+ [ 199 5425    1]
+ [ 204 1391    1]]
+f1 score: 0.5277661374044487
+282/282 [==============================] - 11s 37ms/step - loss: 0.8882 - accuracy: 0.6313
+buy&sell test accuracy_t: 268 / 3393 = 0.079
+buy&sell test accuracy_o: 268 / 672 = 0.3988
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 4/500
+1015/1015 [==============================] - 194s 191ms/step - loss: 0.8344 - accuracy: 0.6536 - val_loss: 0.8367 - val_accuracy: 0.6443
+[[ 423 1374    0]
+ [ 507 5118    0]
+ [ 377 1219    0]]
+f1 score: 0.5330698757001486
+282/282 [==============================] - 11s 38ms/step - loss: 0.9552 - accuracy: 0.6144
+buy&sell test accuracy_t: 423 / 3393 = 0.1247
+buy&sell test accuracy_o: 423 / 1307 = 0.3236
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 5/500
+1015/1015 [==============================] - 197s 194ms/step - loss: 0.8338 - accuracy: 0.6550 - val_loss: 0.8506 - val_accuracy: 0.6460
+[[ 341 1456    0]
+ [ 304 5320    1]
+ [ 298 1298    0]]
+f1 score: 0.5340668131056527
+282/282 [==============================] - 11s 38ms/step - loss: 0.9067 - accuracy: 0.6277
+buy&sell test accuracy_t: 341 / 3393 = 0.1005
+buy&sell test accuracy_o: 341 / 944 = 0.3612
+
+
+
+Epoch 6/500
+1015/1015 [==============================] - 196s 193ms/step - loss: 0.8312 - accuracy: 0.6548 - val_loss: 0.8437 - val_accuracy: 0.6465
+[[ 146 1546  105]
+ [  69 5463   93]
+ [ 121 1398   77]]
+f1 score: 0.5275302033447725
+282/282 [==============================] - 11s 38ms/step - loss: 0.8998 - accuracy: 0.6305
+buy&sell test accuracy_t: 223 / 3393 = 0.0657
+buy&sell test accuracy_o: 223 / 611 = 0.365
+
+
+
+Epoch 7/500
+1015/1015 [==============================] - 197s 194ms/step - loss: 0.8336 - accuracy: 0.6549 - val_loss: 0.8539 - val_accuracy: 0.6460
+[[ 269 1462   66]
+ [ 196 5347   82]
+ [ 224 1324   48]]
+f1 score: 0.5374436138197143
+282/282 [==============================] - 11s 38ms/step - loss: 0.9051 - accuracy: 0.6281
+buy&sell test accuracy_t: 317 / 3393 = 0.0934
+buy&sell test accuracy_o: 317 / 885 = 0.3582
+
+
+
+Epoch 8/500
+1015/1015 [==============================] - 195s 192ms/step - loss: 0.8309 - accuracy: 0.6545 - val_loss: 0.8470 - val_accuracy: 0.6443
+[[ 208 1471  118]
+ [ 161 5347  117]
+ [ 166 1336   94]]
+f1 score: 0.5369308505285184
+282/282 [==============================] - 11s 38ms/step - loss: 0.9079 - accuracy: 0.6264
+buy&sell test accuracy_t: 302 / 3393 = 0.089
+buy&sell test accuracy_o: 302 / 864 = 0.3495
+
+
+
+Epoch 9/500
+1015/1015 [==============================] - 192s 189ms/step - loss: 0.8276 - accuracy: 0.6555 - val_loss: 0.8217 - val_accuracy: 0.6460
+[[ 321 1475    1]
+ [ 278 5346    1]
+ [ 256 1340    0]]
+f1 score: 0.5320024772288139
+282/282 [==============================] - 11s 37ms/step - loss: 0.8900 - accuracy: 0.6284
+buy&sell test accuracy_t: 321 / 3393 = 0.0946
+buy&sell test accuracy_o: 321 / 857 = 0.3746
+
+
+
+C:\ProgramData\Anaconda3\envs\tf\lib\site-packages\keras\utils\generic_utils.py:494: CustomMaskWarning: Custom mask layers require a config and must override get_config. When loading, the custom mask layer must be passed to the custom_objects argument.
+  warnings.warn('Custom mask layers require a config and must override '
+Epoch 10/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.8306 - accuracy: 0.6564 - val_loss: 0.8361 - val_accuracy: 0.6526
+[[ 184 1463  150]
+ [ 141 5362  122]
+ [ 164 1315  117]]
+f1 score: 0.5388926724317731
+282/282 [==============================] - 11s 37ms/step - loss: 0.8890 - accuracy: 0.6280
+buy&sell test accuracy_t: 301 / 3393 = 0.0887
+buy&sell test accuracy_o: 301 / 878 = 0.3428
+
+
+
+Epoch 11/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.8282 - accuracy: 0.6564 - val_loss: 0.8836 - val_accuracy: 0.6399
+[[ 290 1506    1]
+ [ 290 5335    0]
+ [ 230 1366    0]]
+f1 score: 0.5254952221520418
+282/282 [==============================] - 11s 37ms/step - loss: 0.9202 - accuracy: 0.6238
+buy&sell test accuracy_t: 290 / 3393 = 0.0855
+buy&sell test accuracy_o: 290 / 811 = 0.3576
+
+
+
+Epoch 12/500
+1015/1015 [==============================] - 191s 189ms/step - loss: 0.8259 - accuracy: 0.6566 - val_loss: 0.8356 - val_accuracy: 0.6446
+[[  40 1727   30]
+ [  30 5576   19]
+ [  54 1523   19]]
+f1 score: 0.493696961879526
+282/282 [==============================] - 11s 37ms/step - loss: 0.8912 - accuracy: 0.6249
+buy&sell test accuracy_t: 59 / 3393 = 0.0174
+buy&sell test accuracy_o: 59 / 192 = 0.3073
+
+
+
+Epoch 13/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.8229 - accuracy: 0.6566 - val_loss: 0.8455 - val_accuracy: 0.6518
+[[  73 1591  133]
+ [  62 5459  104]
+ [  62 1422  112]]
+f1 score: 0.5180632551365081
+282/282 [==============================] - 10s 36ms/step - loss: 0.9098 - accuracy: 0.6259
+buy&sell test accuracy_t: 185 / 3393 = 0.0545
+buy&sell test accuracy_o: 185 / 546 = 0.3388
+
+
+
+Epoch 14/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.8199 - accuracy: 0.6582 - val_loss: 0.8781 - val_accuracy: 0.6435
+[[ 136 1659    2]
+ [ 130 5495    0]
+ [ 125 1471    0]]
+f1 score: 0.5058273395157791
+282/282 [==============================] - 10s 36ms/step - loss: 0.8851 - accuracy: 0.6244
+buy&sell test accuracy_t: 136 / 3393 = 0.0401
+buy&sell test accuracy_o: 136 / 393 = 0.3461
+
+
+
+Epoch 15/500
+1015/1015 [==============================] - 189s 186ms/step - loss: 0.8161 - accuracy: 0.6569 - val_loss: 0.9176 - val_accuracy: 0.6255
+[[ 326 1466    5]
+ [ 409 5216    0]
+ [ 305 1287    4]]
+f1 score: 0.5253440194585968
+282/282 [==============================] - 10s 36ms/step - loss: 0.9232 - accuracy: 0.6150
+buy&sell test accuracy_t: 330 / 3393 = 0.0973
+buy&sell test accuracy_o: 330 / 1049 = 0.3146
+
+
+
+Epoch 16/500
+1015/1015 [==============================] - 189s 186ms/step - loss: 0.8124 - accuracy: 0.6598 - val_loss: 0.8789 - val_accuracy: 0.6440
+[[ 299 1484   14]
+ [ 343 5277    5]
+ [ 258 1329    9]]
+f1 score: 0.5261364172179679
+282/282 [==============================] - 10s 37ms/step - loss: 0.9016 - accuracy: 0.6193
+buy&sell test accuracy_t: 308 / 3393 = 0.0908
+buy&sell test accuracy_o: 308 / 928 = 0.3319
+
+
+
+Epoch 17/500
+1015/1015 [==============================] - 189s 186ms/step - loss: 0.8092 - accuracy: 0.6614 - val_loss: 0.8782 - val_accuracy: 0.6352
+[[ 405 1350   42]
+ [ 571 5018   36]
+ [ 354 1211   31]]
+f1 score: 0.5321501242562113
+282/282 [==============================] - 10s 36ms/step - loss: 0.9224 - accuracy: 0.6048
+buy&sell test accuracy_t: 436 / 3393 = 0.1285
+buy&sell test accuracy_o: 436 / 1439 = 0.303
+
+
+
+Epoch 18/500
+1015/1015 [==============================] - 189s 186ms/step - loss: 0.8017 - accuracy: 0.6631 - val_loss: 0.8610 - val_accuracy: 0.6521
+[[ 172 1583   42]
+ [ 184 5397   44]
+ [ 157 1409   30]]
+f1 score: 0.5163098504975498
+282/282 [==============================] - 10s 36ms/step - loss: 0.8932 - accuracy: 0.6209
+buy&sell test accuracy_t: 202 / 3393 = 0.0595
+buy&sell test accuracy_o: 202 / 629 = 0.3211
+
+
+
+Epoch 19/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.7969 - accuracy: 0.6640 - val_loss: 0.9107 - val_accuracy: 0.6180
+[[ 325 1307  165]
+ [ 371 5003  251]
+ [ 270 1218  108]]
+f1 score: 0.5394228411196108
+282/282 [==============================] - 10s 36ms/step - loss: 0.9145 - accuracy: 0.6028
+buy&sell test accuracy_t: 433 / 3393 = 0.1276
+buy&sell test accuracy_o: 433 / 1490 = 0.2906
+
+
+
+Epoch 20/500
+1015/1015 [==============================] - 189s 187ms/step - loss: 0.7894 - accuracy: 0.6683 - val_loss: 1.0485 - val_accuracy: 0.4879
+[[ 596  755  446]
+ [ 966 3603 1056]
+ [ 513  694  389]]
+f1 score: 0.5218075668054706
+282/282 [==============================] - 11s 37ms/step - loss: 1.0317 - accuracy: 0.5088
+buy&sell test accuracy_t: 985 / 3393 = 0.2903
+buy&sell test accuracy_o: 985 / 3966 = 0.2484
+
+
+
+Epoch 21/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.7813 - accuracy: 0.6728 - val_loss: 0.9132 - val_accuracy: 0.6113
+[[ 199 1229  369]
+ [ 288 4697  640]
+ [ 167 1120  309]]
+f1 score: 0.5323277608046096
+282/282 [==============================] - 10s 36ms/step - loss: 0.9514 - accuracy: 0.5772
+buy&sell test accuracy_t: 508 / 3393 = 0.1497
+buy&sell test accuracy_o: 508 / 1972 = 0.2576
+
+
+
+Epoch 22/500
+1015/1015 [==============================] - 189s 186ms/step - loss: 0.7709 - accuracy: 0.6788 - val_loss: 0.9650 - val_accuracy: 0.5672
+[[ 573  980  244]
+ [1020 4063  542]
+ [ 470  901  225]]
+f1 score: 0.5278299671560989
+282/282 [==============================] - 11s 37ms/step - loss: 1.0027 - accuracy: 0.5390
+buy&sell test accuracy_t: 798 / 3393 = 0.2352
+buy&sell test accuracy_o: 798 / 3074 = 0.2596
+
+
+
+Epoch 23/500
+1015/1015 [==============================] - 190s 187ms/step - loss: 0.7562 - accuracy: 0.6822 - val_loss: 1.2098 - val_accuracy: 0.3022
+[[   2  192 1603]
+ [   1 1018 4606]
+ [   1  184 1411]]
+f1 score: 0.23556659229943974
+282/282 [==============================] - 10s 37ms/step - loss: 1.2801 - accuracy: 0.2696
+buy&sell test accuracy_t: 1413 / 3393 = 0.4164
+buy&sell test accuracy_o: 1413 / 7624 = 0.1853
